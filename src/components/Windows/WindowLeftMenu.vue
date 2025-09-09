@@ -10,7 +10,7 @@ const props = defineProps({
 // Get the current locale from the locale store
 const localeStore = useLocaleStore()
 const currentLocale = computed(() => localeStore.currentLocale)
-const leftMenu = leftMenuData.leftMenuItems[props.leftMenuType]
+const leftMenu = props.leftMenuType ? leftMenuData.leftMenuItems[props.leftMenuType] || [] : []
 
 const getLocalizedTitle = (item) => {
   return item.title[currentLocale.value] || item.title['fr']
@@ -22,7 +22,7 @@ const getLocalizedSubtitle = (subtask) => {
 </script>
 
 <template>
-  <div class="flex flex-col flex-shrink-0 gap-3 bg-window-side-menu w-32 md:w-12.125 h-full p-2.5 overflow-hidden z-20">
+  <div v-if="leftMenu && leftMenu.length > 0" class="flex flex-col flex-shrink-0 gap-3 bg-window-side-menu w-32 md:w-12.125 h-full p-2.5 overflow-hidden z-20">
     <div
       v-for="item in leftMenu"
       :key="item.id"

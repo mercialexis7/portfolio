@@ -10,7 +10,7 @@ const router = createRouter({
       name: 'home',
       component: Loader,
       meta: {
-        title: 'Alexis Musaelyan - Creative Portfolio | Poetry, Books & Digital Art',
+        title: 'alexis musaelyan - creative world',
         metaTags: [
           {
             rel: 'canonical',
@@ -18,19 +18,19 @@ const router = createRouter({
           },
           {
             name: 'title',
-            content: 'Alexis Musaelyan - Creative Portfolio | Poetry, Books & Digital Art'
+            content: 'alexis musaelyan - creative world'
           },
           {
             name: 'description',
-            content: 'Discover the creative portfolio of Alexis Musaelyan - poet, author, and digital creator. Explore published poetry collections, creative writing, and immersive digital experiences.'
+            content: 'discover the creative world of alexis musaelyan - poet, author, and digital creator. explore published poetry collections, creative writing, and immersive digital experiences.'
           },
           {
             name: 'keywords',
-            content: 'Alexis Musaelyan, poetry, creative writing, digital art, portfolio, books, poetry collection, creative portfolio, digital creator, threshold, entrepreneur'
+            content: 'alexis musaelyan, poetry, creative writing, digital art, portfolio, books, poetry collection, creative portfolio, digital creator, threshold, entrepreneur'
           },
           {
             name: 'author',
-            content: 'Alexis Musaelyan'
+            content: 'alexis musaelyan'
           },
           {
             name: 'robots',
@@ -50,11 +50,11 @@ const router = createRouter({
           },
           {
             name: 'apple-mobile-web-app-title',
-            content: 'Alexis Musaelyan'
+            content: 'alexis musaelyan'
           },
           {
             name: 'application-name',
-            content: 'Alexis Musaelyan'
+            content: 'alexis musaelyan'
           },
           {
             name: 'twitter:card',
@@ -62,11 +62,11 @@ const router = createRouter({
           },
           {
             name: 'twitter:title',
-            content: 'Alexis Musaelyan - Creative Portfolio'
+            content: 'alexis musaelyan - creative portfolio'
           },
           {
             name: 'twitter:description',
-            content: 'Discover the creative portfolio of Alexis Musaelyan - poet, author, and digital creator. Explore published poetry collections and immersive digital experiences.'
+            content: 'discover the creative world of alexis musaelyan - poet, author, and creator. find published poetry collections and immersive digital experiences.'
           },
           {
             name: 'twitter:image',
@@ -74,7 +74,7 @@ const router = createRouter({
           },
           {
             name: 'twitter:image:alt',
-            content: 'Alexis Musaelyan Creative Portfolio Logo'
+            content: 'alexis musaelyan creative portfolio logo'
           },
           {
             name: 'twitter:site',
@@ -94,11 +94,11 @@ const router = createRouter({
           },
           {
             property: 'og:description',
-            content: 'Discover the creative portfolio of Alexis Musaelyan - poet, author, and digital creator. Explore published poetry collections, creative writing, and immersive digital experiences.'
+            content: 'discover the creative world of alexis musaelyan - poet, author, and creator. find published poetry collections, creative writing, and immersive digital experiences.'
           },
           {
             property: 'og:site_name',
-            content: 'Alexis Musaelyan'
+            content: 'alexis musaelyan'
           },
           {
             property: 'og:url',
@@ -140,7 +140,7 @@ const router = createRouter({
       name: 'Office',
       component: Office,
       meta: {
-        title: 'Office - Alexis Musaelyan Portfolio',
+        title: 'office - alexis musaelyan',
         metaTags: [
           {
             rel: 'canonical',
@@ -148,19 +148,19 @@ const router = createRouter({
           },
           {
             name: 'title',
-            content: 'Office - Alexis Musaelyan Portfolio'
+            content: 'office - alexis musaelyan portfolio'
           },
           {
             name: 'description',
-            content: 'Explore Alexis Musaelyan\'s creative workspace - featuring poetry collections, digital art, blog posts, and professional documents in an immersive Windows XP-inspired interface.'
+            content: 'explore alexis musaelyan\'s creative workspace - featuring poetry collections, digital art, blog posts, and professional documents in an immersive Windows XP-inspired interface.'
           },
           {
             name: 'keywords',
-            content: 'Alexis Musaelyan, office, portfolio, poetry, digital art, blog, documents, creative workspace, Windows XP, poetry collection, creative writing'
+            content: 'alexis musaelyan, office, portfolio, poetry, digital art, blog, documents, creative workspace, Windows XP, poetry collection, creative writing'
           },
           {
             name: 'author',
-            content: 'Alexis Musaelyan'
+            content: 'alexis musaelyan'
           },
           {
             name: 'robots',
@@ -184,7 +184,7 @@ const router = createRouter({
           },
           {
             name: 'application-name',
-            content: 'Alexis Musaelyan'
+            content: 'alexis musaelyan'
           },
           {
             name: 'twitter:card',
@@ -196,7 +196,7 @@ const router = createRouter({
           },
           {
             name: 'twitter:description',
-            content: 'Explore Alexis Musaelyan\'s creative workspace - featuring poetry collections, digital art, blog posts, and professional documents in an immersive Windows XP-inspired interface.'
+            content: 'explore alexis musaelyan\'s creative workspace - featuring poetry collections, digital art, blog posts, and professional documents in an immersive Windows XP-inspired interface.'
           },
           {
             name: 'twitter:image',

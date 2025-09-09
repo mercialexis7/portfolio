@@ -106,7 +106,7 @@
       "duration": "Duration",
       "link": "Links",
       "artist": "Artist",
-      "description": "What's been on repeat for the past few months.",
+      "description": "on repeat",
       "visitOnSpotify": "Listen on Spotify",
       "accessFirstSentence": "To access this feature,",
       "accessSecondSentence": "it is mandatory to connect to Spotify",
