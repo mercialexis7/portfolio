@@ -8,7 +8,7 @@
       "projects": [
         {
           "name": "the joke is god",
-          "icon": "projects/projects-icon-sm.webp",
+          "icon": "projects/projects-books.webp",
           "cover": "book covers/thejokeisgod.jpg",
           "link": "https://www.amazon.com/joke-god-alexis-musaelyan/dp/B0FND7Y577",
           "title": {
@@ -25,7 +25,7 @@
         },
         {
           "name": "leave the door open",
-          "icon": "projects/projects-icon-sm.webp",
+          "icon": "projects/projects-books.webp",
           "cover": "book covers/leavethedooropen.jpg",
           "link": "https://www.amazon.com/leave-door-open-alexis-musaelyan/dp/B0FC6BBB9N/ref=sr_1_1?crid=2D0Q4E3MLD7U3&dib=eyJ2IjoiMSJ9.QV_0B_n14WagiW4388J9XA.GaBD5wCyG09qlVUnUFzeS1iPUyEz8CPp0mtcv1z0Cs0&dib_tag=se&keywords=leave+the+door+alexis+musaelyan&qid=1756401346&sprefix=leave+the+door+alexis+musaelyan%2Caps%2C81&sr=8-1",
           "title": {
@@ -42,7 +42,7 @@
         },
         {
           "name": "flow",
-          "icon": "projects/projects-icon-sm.webp",
+          "icon": "projects/projects-books.webp",
           "cover": "book covers/flow.jpg",
           "link": "https://www.amazon.com/flow-alexis-musaelyan/dp/B0F32YG6Z8/ref=sr_1_1?crid=2DKB3OPLSBPEG&dib=eyJ2IjoiMSJ9.THBTAuWbk95Wz3uRwEV3Fagq-ESuo8brA9yRmv-sVX4.Ya59frLpC8ULLZ51_WFTXVElp-9K9tQnNk7byezD1c0&dib_tag=se&keywords=flow+alexis+musaelyan&qid=1757409041&sprefix=flow+alexis+m%2Caps%2C82&sr=8-1",
           "title": {
@@ -59,7 +59,7 @@
         },
         {
           "name": "research",
-          "icon": "windows-header-tools/folder-opening-icon.webp",
+          "icon": "projects/projects-research.png",
           "title": {
             "en": "current research interests",
             "fr": "Recherche sur les fréquences et le système nerveux"
@@ -74,7 +74,7 @@
         },
         {
           "name": "sound",
-          "icon": "music/playmusic-icon-sm.webp",
+          "icon": "projects/projects-sound.png",
           "title": {
             "en": "sound as healing",
             "fr": "Le son comme médecine"
@@ -89,7 +89,7 @@
         },
         {
           "name": "threshold",
-          "icon": "windows-header-tools/folder-open-icon.webp",
+          "icon": "projects/projects-threshold.webp",
           "title": {
             "en": "threshold - presence technology",
             "ru": "предел - технология присутствия"

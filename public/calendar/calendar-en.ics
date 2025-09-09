@@ -13,8 +13,8 @@ UID:portfolio-event-001
 DTSTART;VALUE=DATE:20250915
 DTEND;VALUE=DATE:20250916
 STATUS:CONFIRMED
-SUMMARY:Portfolio Update
-LOCATION:Online
-DESCRIPTION:Regular portfolio maintenance and updates
+SUMMARY:website was born
+LOCATION:here
+DESCRIPTION:she saw the light
 END:VEVENT
 END:VCALENDAR

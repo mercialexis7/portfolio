@@ -143,21 +143,21 @@ window.addEventListener('click', (e) => {
         <div class="absolute left-[-12px] top-5 w-80 h-px bg-gradient-to-r from-blue-300 to-white"></div>
 
         <!-- Content for the projects -->
-        <div class="flex flex-wrap gap-2 pt-2 md:pt-3 pb-3 w-full">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-2 pt-2 md:pt-3 pb-3 w-full">
           <div
             v-for="project in category.projects"
             :key="project.name"
             @click="focusProject(project)"
             @dblclick="toggleProject(project)"
-            class="flex items-center px-4 pb-2 gap-2.5 cursor-pointer project-card"
-            :class="{ active: project.isFocus }"
+            class="flex items-center px-3 py-2 gap-0 md:gap-0 cursor-pointer project-card rounded hover:bg-gray-50 transition-colors min-w-0 h-12"
+            :class="{ 'bg-blue-50 border border-blue-200': project.isFocus }"
           >
-            <img :src="'/img/icons/' + project.icon" alt="project" class="w-10 h-10" :style="{ opacity: project.isFocus ? 0.5 : 1 }" />
+            <img :src="'/img/icons/' + project.icon" alt="project" class="w-20 h-12 md:w-20 md:h-20 flex-shrink-0 object-contain" :style="{ opacity: project.isFocus ? 0.7 : 1 }" />
             <p
-              class="text-xs font-tahoma font-medium"
+              class="text-xs font-tahoma font-medium truncate leading-tight flex-1 min-w-0"
               :style="{
-                backgroundColor: project.isFocus ? '#0B61FF' : 'transparent',
-                color: project.isFocus ? 'white' : 'black'
+                color: project.isFocus ? '#1e40af' : 'black',
+                lineHeight: '1.2'
               }"
             >
               {{ project.name }}

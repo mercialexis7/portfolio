@@ -13,9 +13,9 @@
               class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-50 transition-colors"
               :class="{ 'bg-blue-50 border border-blue-200': page.isFocused }"
             >
-              <img :src="'/img/icons/documents/' + page.icon" alt="Office icon" class="w-12 h-12 flex-shrink-0" :style="{ opacity: page.isFocused ? 0.7 : 1 }" />
+              <img :src="'/img/icons/documents/' + page.icon" alt="Office icon" class="w-8 h-8 md:w-10 md:h-10 flex-shrink-0" :style="{ opacity: page.isFocused ? 0.7 : 1 }" />
               <div class="min-w-0 flex-1">
-                <p class="text-sm font-tahoma font-medium leading-tight truncate">{{ $t(page.name) }}</p>
+                <p class="text-xs font-tahoma font-medium leading-tight">{{ $t(page.name) }}</p>
                 <p :class="'text-xs ' + [page.isFocused ? 'text-blue-600' : 'text-gray-500']">{{ $t(page.type) }}</p>
                 <p :class="'text-xs ' + [page.isFocused ? 'text-blue-600' : 'text-gray-500']">{{ page.size }}</p>
               </div>

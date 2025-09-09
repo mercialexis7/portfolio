@@ -26,7 +26,7 @@
         </button>
       </div>
       <div class="w-1/3">
-        <p class="text-xs font-trebuchet-pixel text-center">{{ formatTime(currentTime) }} / {{ formatTime(currentTrack.duration_ms) }}</p>
+        <p class="text-xs font-trebuchet-pixel text-center">{{ formatTime(currentTime) }} / {{ formatTime(audioElement && audioElement.duration ? audioElement.duration * 1000 : currentTrack.duration_ms) }}</p>
       </div>
     </div>
   </div>
@@ -55,7 +55,8 @@ const updateCurrentTime = () => {
   if (audioElement) {
     currentTime.value = audioElement.currentTime * 1000 // Convert to milliseconds
   }
-  if (currentTime.value >= currentTrack.value.duration_ms) {
+  // Use actual audio duration instead of JSON duration_ms
+  if (audioElement && audioElement.duration && currentTime.value >= audioElement.duration * 1000) {
     nextTrack()
   }
 }
@@ -84,7 +85,9 @@ const getTrackFilename = (track) => {
     '6lezg9kxhv97VVHlsbRpYu': 'iliona - J\'ai du mal (Clip Officiel).mp3',
     '1NlWBpNYAnFT7gMGyC0Y1M': 'Mereba - Sandstorm ft. JID (Audio).mp3',
     '3kXUheF6zMgjzNlNp0u2jo': 'Snow over Leningrad.mp3',
-    '0FTpFi1BlqoBVELlh7jK50': 'Le Depart.mp3'
+    '0FTpFi1BlqoBVELlh7jK50': 'Le Depart.mp3',
+    'new-marvin-gaye': 'Marvin Gaye - I Want You (1981, Rehearsal).mp3',
+    'new-beautiful-days': 'Beautiful Days.mp3'
   }
   
   return filenameMap[track.id] || `${track.id}.mp3`

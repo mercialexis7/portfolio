@@ -1,6 +1,8 @@
 <template>
   <div class="relative right-0 h-content-window flex overflow-y-auto bg-white pb-14">
-    <div v-if="loading" class="w-full h-full flex items-center text-center justify-center text-sm">{{ $t('common.loading') }}</div>
+    <div v-if="loading" class="w-full h-full flex items-center justify-center">
+      <WindowsXpLoader />
+    </div>
     <div v-else class="w-full font-trebuchet-pixel">
       <div class="w-full h-full overflow-x-hidden">
         <div>
@@ -116,6 +118,7 @@ import { enUS, fr } from 'date-fns/locale'
 import { useLocaleStore } from '@/stores/localeStore'
 import Button from '@/components/Buttons/Button.vue'
 import Player from '@/components/Windows/Music/Player.vue'
+import WindowsXpLoader from '@/components/Loading/WindowsXpLoader.vue'
 import playlistData from '@/data/playlist-data.json'
 
 const localeStore = useLocaleStore()

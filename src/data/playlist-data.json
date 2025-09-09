@@ -508,6 +508,50 @@
         ],
         "added_at": "2024-12-20T14:28:55Z",
         "duration_ms": 60000
+      },
+      {
+        "id": "new-marvin-gaye",
+        "name": "I Want You (1981, Rehearsal)",
+        "album": {
+          "name": "I Want You (Deluxe Edition)",
+          "images": [
+            {
+              "url": "/img/album-covers/Marvin-gaye-i-want-you.jpg"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/1M7Xd1VF0q1K6bNPBkJIrj"
+          }
+        },
+        "artists": [
+          {
+            "name": "Marvin Gaye"
+          }
+        ],
+        "added_at": "2024-12-20T14:28:55Z",
+        "duration_ms": 240000
+      },
+      {
+        "id": "new-beautiful-days",
+        "name": "Beautiful Days",
+        "album": {
+          "name": "Beautiful Days",
+          "images": [
+            {
+              "url": "/img/album-covers/takashi kako beautiful days.jpg"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/1B75hgRjZ4C2K1vY0Q9Q9Q"
+          }
+        },
+        "artists": [
+          {
+            "name": "Takashi Kako"
+          }
+        ],
+        "added_at": "2024-12-20T14:28:55Z",
+        "duration_ms": 180000
       }
     ]
   }

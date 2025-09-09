@@ -30,7 +30,7 @@
           {
             "id": 3,
             "subtitle": {
-              "en": "Change a settings",
+              "en": "Change settings",
               "ru": "Изменить параметры"
             },
             "iconUrl": "/img/icons/side-menu/settings-icon.webp"
@@ -50,7 +50,7 @@
           {
             "id": 1,
             "subtitle": {
-              "en": "My network places",
+              "en": "My network",
               "ru": "Мои сетевые места"
             },
             "iconUrl": "/img/icons/side-menu/networking-icon.webp",

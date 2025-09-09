@@ -14,7 +14,9 @@
             }"
           ></div>
         </div>
-        <p v-else>Loading...</p>
+        <div v-else class="flex items-center justify-center py-8">
+          <WindowsXpLoader />
+        </div>
         <div class="flex py-2">
           <div class="flex gap-0.5">
             <button
@@ -81,6 +83,7 @@
 import { ref, onMounted, nextTick } from 'vue'
 import WindowLeftMenu from '@/components/Windows/WindowLeftMenu.vue'
 import picturesData from '@/data/pictures-data.json'
+import WindowsXpLoader from '@/components/Loading/WindowsXpLoader.vue'
 
 const props = defineProps({
   leftMenuType: String

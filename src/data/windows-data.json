@@ -2,8 +2,8 @@
   {
     "id": "myProjects",
     "title": {
-      "en": "My Projects",
-      "ru": "Мои проекты"
+      "en": "works",
+      "ru": "проекты"
     },
     "subtitle": {
       "en": "See all my projects",
@@ -30,12 +30,12 @@
   {
     "id": "contact",
     "title": {
-      "en": "Contact me",
-      "ru": "Свяжитесь со мной"
+      "en": "contact me",
+      "ru": "свяжитесь со мной"
     },
     "subtitle": {
-      "en": "Leave me a message",
-      "ru": "Оставь мне сообщение"
+      "en": "leave me a message",
+      "ru": "оставь мне сообщение"
     },
     "imgSrc": "/img/icons/contact/email-icon-lg.webp",
     "onDesktop": true,
@@ -58,12 +58,12 @@
   {
     "id": "aboutMe",
     "title": {
-      "en": "About Me",
-      "ru": "Обо мне"
+      "en": "about me",
+      "ru": "oбо мне"
     },
     "subtitle": {
-      "en": "Learn more about me",
-      "ru": "Узнайте больше обо мне"
+      "en": "learn more about me",
+      "ru": "узнайте больше обо мне"
     },
     "imgSrc": "/img/icons/cv/cv-icon-lg.webp",
     "onDesktop": true,
@@ -86,8 +86,8 @@
   {
     "id": "music",
     "title": {
-      "en": "My Music",
-      "ru": "Моя музыка"
+      "en": "music",
+      "ru": "музыка"
     },
     "imgSrc": "/img/icons/music/playmusic-icon-lg.webp",
     "onDesktop": true,
@@ -110,8 +110,8 @@
   {
     "id": "documents",
     "title": {
-      "en": "My Documents",
-      "ru": "Мои документы"
+      "en": "documents",
+      "ru": "документы"
     },
     "imgSrc": "/img/icons/documents/folder-docs-icon-sm.webp",
     "onDesktop": true,
@@ -134,8 +134,8 @@
   {
     "id": "pictures",
     "title": {
-      "en": "My Pictures",
-      "ru": "Мои изображения"
+      "en": "pictures",
+      "ru": "изображения"
     },
     "imgSrc": "/img/icons/pictures/folder-images-icon-sm.webp",
     "onDesktop": true,
@@ -158,8 +158,8 @@
   {
     "id": "calendar",
     "title": {
-      "en": "Calendar",
-      "ru": "Календарь"
+      "en": "calendar",
+      "ru": "календарь"
     },
     "imgSrc": "/img/icons/calendar/calendar-icon-lg.webp",
     "onDesktop": false,
@@ -182,8 +182,8 @@
   {
     "id": "minesweeper",
     "title": {
-      "en": "Minesweeper",
-      "ru": "Сапер"
+      "en": "minesweeper",
+      "ru": "cапер"
     },
     "imgSrc": "/img/icons/minesweeper/minesweeper-icon-lg.webp",
     "onDesktop": true,
@@ -206,8 +206,8 @@
   {
     "id": "notepad",
     "title": {
-      "en": "Notepad",
-      "ru": "Блокнот"
+      "en": "notepad",
+      "ru": "блокнот"
     },
     "imgSrc": "/img/icons/notepad/notepad-icon-lg.webp",
     "onDesktop": true,
@@ -230,12 +230,12 @@
   {
     "id": "terminal",
     "title": {
-      "en": "Terminal",
-      "ru": "Терминал"
+      "en": "terminal",
+      "ru": "терминал"
     },
     "subtitle": {
-      "en": "Run commands using the terminal",
-      "ru": "Запуск команд с помощью терминала"
+      "en": "run commands using the terminal",
+      "ru": "запуск команд с помощью терминала"
     },
     "imgSrc": "/img/icons/cmd-icon-lg.webp",
     "onDesktop": false,
