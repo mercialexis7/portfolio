@@ -39,6 +39,7 @@ import FieldCoherence from './FieldCoherence.vue'
 import CreationIsntProduction from './CreationIsntProduction.vue'
 import ScienceWillCatchUp from './ScienceWillCatchUp.vue'
 import TheArchitectureOfForgetting from './TheArchitectureOfForgetting.vue'
+import GoAllIn from './GoAllIn.vue'
 
 // Stores management
 const goBackStore = useGoBackStore()
@@ -110,6 +111,15 @@ const pages = ref([
     isFocused: false,
     isActive: false,
     component: 'TheArchitectureOfForgetting'
+  },
+  {
+    name: 'windows.documents.goAllIn.title',
+    type: 'common.textDocument',
+    icon: 'txt-icon.webp',
+    size: '12KB',
+    isFocused: false,
+    isActive: false,
+    component: 'GoAllIn'
   }
 ])
 
@@ -120,7 +130,8 @@ const componentMap = {
   FieldCoherence,
   CreationIsntProduction,
   ScienceWillCatchUp,
-  TheArchitectureOfForgetting
+  TheArchitectureOfForgetting,
+  GoAllIn
 }
 
 const currentComponent = computed(() => {
