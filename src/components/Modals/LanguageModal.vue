@@ -5,28 +5,29 @@ import { useI18n } from 'vue-i18n'
 const { locale } = useI18n()
 const localeNames = {
   en: 'English',
-  fr: 'Français'
+  ru: 'Русский'
 }
 
 const props = defineProps({
   currentLocale: {
     type: String,
-    default: 'fr'
+    default: 'en'
   }
 })
 
 // Function to get the flag source based on the locale
 const getFlagSrc = (locale) => {
-  return `/img/icons/langs/flag-${locale}.webp`
+  const extension = locale === 'ru' ? 'png' : 'webp'
+  return `/img/icons/langs/flag-${locale}.${extension}`
 }
 
 // Compute the opposite locale
 const oppositeLocale = computed(() => {
-  return props.currentLocale === 'en' ? 'fr' : 'en'
+  return props.currentLocale === 'en' ? 'ru' : 'en'
 })
 
 const handleLanguageSwitch = () => {
-  const newLocale = props.currentLocale === 'en' ? 'fr' : 'en'
+  const newLocale = props.currentLocale === 'en' ? 'ru' : 'en'
   localStorage.setItem('currentLocale', newLocale)
   locale.value = newLocale
   location.reload()

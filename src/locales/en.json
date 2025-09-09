@@ -11,7 +11,7 @@
     "files": "Files",
     "folder": "Folder",
     "next": "Next",
-    "projects": "Projects",
+    "projects": "Works",
     "go": "Go",
     "address": "Address",
     "design": "Design",
@@ -30,23 +30,24 @@
     "CDM": "CDM",
     "PDM": "PDM",
     "years": "years old",
-    "webdev": "Web developer",
+    "webdev": "Creator",
     "textDocument": "Text Document",
     "list": "List",
     "modifications": "Modifications",
     "loading": "Loading...",
     "language": "Language",
-    "french": "French",
-    "english": "English"
+    "russian": "Russian",
+    "english": "English",
+    "backToTop": "Back to Top"
   },
   "message": {
-    "welcome": "Welcome to my computer.",
+    "welcome": "Welcome to my world.",
     "toBegin": "To begin the journey, click on my username.",
-    "explainer": "After logging in, you can browse through the folders on my computer. Go to the desktop and click on the projects folder to see all my projects."
+    "explainer": "After logging in, you can browse through the folders on my computer. Go to the desktop and click on the different folders."
   },
   "header": {
     "disconnect": "Log Off",
-    "shutdown": "Turn Off Computer"
+    "shutdown": "Shut Down"
   },
   "modale": {
     "fullscreenTitle": "Fullscreen mode is now available!",
@@ -57,14 +58,14 @@
   "buttons": {
     "start": "start",
     "send": "Send",
-    "downloadCV": "Download the CV",
+    "downloadAboutMe": "Download About Me",
     "linkWebSite": "Visit the website",
     "linkRepository": "Visit the repository"
   },
   "windows": {
     "contact": {
       "name": "@:common.name",
-      "description": "If you'd like to talk about a project, or just have a chat, leave me a message and I'll get back to you as soon as possible!",
+      "description": "If you'd like to connect, leave me a message and I'll get back to you as soon as possible!",
       "email": "Email",
       "msgPlaceholder": "Message here...",
       "success": "Message sent successfully",
@@ -87,10 +88,16 @@
       "from": "From :",
       "subject": "Subject :"
     },
-    "cv": {
-      "altPicture": "presentation CV",
-      "education": "Education",
-      "proExperience": "Professional experiences"
+    "aboutMe": {
+      "altPicture": "presentation about me",
+      "whoIAm": "who i am",
+      "whoIAmText": "i'm alexis. i create across forms — sound, visuals, language, feeling, tech. i follow what moves me. i care about honesty, subtlety, and beauty that reveals something deeper. everything i make is part of a larger conversation with the unknown.",
+      "passions": "what i care about",
+      "passionsText": "i'm drawn to sound, design, consciousness, perception. how things feel, how they resonate. i love projects that move energy — whether through music, writing, or presence. i'm here to explore what's real beneath the surface, even if it means going way out there to find it.",
+      "creations": "what i make",
+      "creationsText": "i make things that don't always fit categories — poems that feel like spells, sound that feels like memory, interfaces that feel like portals, tech that has your grandma's scent. i like work that stretches perception and brings people closer to themselves. sometimes it's experimental, sometimes it's tender. sometimes it hums at 4hz.",
+      "howItWorks": "how it works",
+      "howItWorksText": "i don't force it. i follow the spark. sometimes it starts with a frequency, sometimes a sentence that won't leave me alone. i let the thing tell me what it wants to become. divine timing? mostly. i trust the field."
     },
     "music": {
       "title": "Title",
@@ -99,7 +106,7 @@
       "duration": "Duration",
       "link": "Links",
       "artist": "Artist",
-      "description": "A playlist created especially for my portfolio, it contains my favorite tracks.",
+      "description": "What's been on repeat for the past few months.",
       "visitOnSpotify": "Listen on Spotify",
       "accessFirstSentence": "To access this feature,",
       "accessSecondSentence": "it is mandatory to connect to Spotify",
@@ -115,136 +122,159 @@
     },
     "documents": {
       "about": {
-        "title": "About",
-        "contextFirstParagraph": "This project was born out of a desire to create a portfolio that would be both fun and original.",
-        "contextSecondParagraph": "The idea was to create the Windows XP computer interface, which would allow visitors to browse the folders and files in my computer's session.",
-        "contextThirdParagraph": "I wanted to present my projects from a different angle, where users could wander around. Something more than just a business card on the web. Something interactive.",
-        "contextFourthParagraph": "The project was designed to be as close as possible to a real Windows XP computer interface, with a desktop, folders, and files.",
-        "contextFifthParagraph": "Windows XP is the first operating system I used, and it's design is a madeleine de proust for me. I wanted to pay tribute to it.",
-        "contextSixthParagraph": "This project was created with Vue.js, Vuex, Vue Router, and SCSS. It took me about a year to complete (on and off).",
-        "contextSeventhParagraph": "This project has been made with a lot of passion and patience, and I hope you enjoy browsing through my computer!",
-        "secondTitle": "Thanks",
-        "helpFirst": "This project was carried out with the help of Dockurr windows xp, which enabled me to run a Windows XP environment on my computer very easily.",
-        "helpSecond": "Spotify's API enabled me to retrieve my playlist information, display it on my site and add an integrated player.",
-        "helpThird": "For the server side, I used a Node.js server to compile the site and manage the contact form. The website is hosted on hostinger and the CI / CD is made using my homeserver.",
-        "helpFourth": "I was able to recover the Windows XP images and integrate them into my project thanks to the internet archive website. Many thanks to them.",
-        "helpFifth": "My cat partly helped by stepping on my keyboard, but mostly she was a moral support."
+        "title": "you found me",
+        "contextFirstParagraph": "if you found this, it's definitely not an accident.",
+        "contextSecondParagraph": "you can try to explain it away. maybe you were just browsing. maybe someone sent you the link. maybe you’re just nosy. (it’s fine, i would be too.)",
+        "contextThirdParagraph": "but be honest. you felt something. a little pull. a little click in your chest",
+        "contextFourthParagraph": "and now... here you are. reading this.",
+        "contextFifthParagraph": "this is a breadcrumb. a pocket of frequency you stumbled into. a soft signal in a loud world.",
+        "contextSixthParagraph": "you don’t have to understand it. you just have to feel it. and if you’re still here, you already do.",
+        "contextSeventhParagraph": "this space isn’t for proving anything. not for followers or formulas. this is a meeting place. a resonance checkpoint. a remembering.",
+        "contextEighthParagraph": "sometimes things arrive before we think we’re ready. but your field knows. your body knows. your knowing knows.",
+        "contextNinthParagraph": "so trust what brought you here. even if it’s quiet. even if it doesn’t make sense yet.",
+        "contextTenthParagraph": "i’m not here to convince you. i’m just here. and now, so are you.",
+        "contextEleventhParagraph": "i’m not here to convince you. i’m just here. and now, so are you. so let’s begin. or maybe… let’s just remember.",
+        "secondTitle": "- A"
       },
-      "legal": {
-        "title": "Legal notices",
-        "firstParagraph": "In accordance with the provisions of Law No. 2004-575 of June 21, 2004, for confidence in the digital economy, users of the Portfolio - Paul Jaguin website are informed of the identity of the various parties involved in its creation and monitoring.",
-        "edit": "Site editing",
-        "secondParagraph": "This site, accessible at the URL https://pauljaguin.com (the « Site »), is edited by:",
-        "thirdParagraph": "Paul Jaguin, residing at 202 Boulevard de Charonne, 75020 PARIS, of French nationality (France), born on 09/23/1999.",
-        "hosting": "Hosting",
-        "fourthParagraph": "The Site is hosted by Hostinger International LTD, which can be contacted at the following address: https://www.hostinger.fr/contact",
-        "dirPublication": "Publication director",
-        "fifthParagraph": "The Publication Director is: Paul Jaguin.",
-        "contact": "Contact",
-        "sixthParagraph": "For any questions, information about the products presented on the Site, or regarding the Site itself, you can leave a message at the following email address:"
+      "000: origin memory": {
+        "title": "000: origin memory",
+        "contextFirstParagraph": "before you were named, before you had a face, before time wrapped you in its illusion — do you remember what you were?",
+        "contextSecondParagraph": "what makes you think you’re here now? what tells you this is a place, a moment, a life? where is the boundary between dreaming and waking, and who drew it?",
+        "contextThirdParagraph": "you say you’ve been moving—but have you ever seen yourself travel? or is it just one image, followed by another, stitched together by memory and meaning?",
+        "contextFourthParagraph": "what if there are no places? no others? no pasts or futures? what if the entire field is folding itself into a shape just believable enough for you to call it real?",
+        "contextFifthParagraph": "you want purpose. but would you still want it if you realized you are the purpose? not what you do. not what you produce. just the act of being, here, aware.",
+        "contextSixthParagraph": "you’re not in the universe. the universe is in you. and not metaphorically — in the most literal sense of perception and projection.",
+        "contextSeventhParagraph": "you keep trying to find the source. but what if the source isn’t something to find? what if the source is what’s watching you search?",
+        "contextEighthParagraph": "when you stop running from silence, the questions begin to whisper; not for answers, but for intimacy. they want to be held, not solved.",
+        "contextNinthParagraph": "you were never supposed to figure it out. only to feel it so fully that you dissolve into the wonder of it all.",
+        "contextTenthParagraph": "if you’re still here, then you already know. you’ve always known.",
+        "secondTitle": "- A"
+      },
+      "theSpaceBetweenWorlds": {
+        "title": "the space between worlds",
+        "contextFirstParagraph": "there's a place that isn't a place. not where you were, not yet where you're going. not the death, not the rebirth. it's the space in-between. the space between selves. between timelines. between identities. between lives.",
+        "contextSecondParagraph": "it's quiet there. heavy, sometimes. thick like syrup. nothing moves fast. it's the pause in the inhale, the hang before the beat drops. it's not where people cheer. it's where they squirm.",
+        "contextThirdParagraph": "we're taught to rush through this place. to fill it, fix it, name it, escape it. we call it confusion. stagnation. depression. but what if it's none of that? what if it's gestation?",
+        "contextFourthParagraph": "this space is sacred. it's where your old skin flakes off. it's where you grieve the version of you that no longer fits — not because it was bad, but because it's time. it's where your nervous system recalibrates, your field rearranges, and you prepare to carry more of yourself.",
+        "contextFifthParagraph": "the problem is: no one claps for this part. no one throws a party for your unraveling. you don't get applause for laying on the floor, letting your illusions dissolve. but it's the most honest work you'll ever do.",
+        "contextSixthParagraph": "you might not know who you are in this space. that's okay. you're not supposed to. you're not broken — you're becoming. and becoming is messy, cyclical, holy.",
+        "contextSeventhParagraph": "some people will think you've lost your spark. some will project their fear of stillness onto you. some will call it lazy. let them. not everyone can see the architecture of what’s growing inside you.",
+        "contextEighthParagraph": "if you're here now — in the space between worlds — i honor you. it means you're not bypassing your evolution. it means you're brave enough to not fake it. it means you're waiting for what’s *real.*",
+        "contextNinthParagraph": "wait well. wait with honesty. wait without needing it to be over. because when you finally arrive, you won't be arriving into something new… you'll be arriving into what has *always been waiting* for you.",
+        "contextFinalParagraph": "and that's when the world shifts — not because you forced it, but because you *matched it.*"
+      },
+      "fieldCoherence": {
+        "title": "field coherence",
+        "contextFirstParagraph": "you're not just a person. you're a field. you're a resonance — alive, sensitive, constantly broadcasting.",
+        "contextSecondParagraph": "when you enter a space, the space either harmonizes with your field… or disrupts it. not because it's 'bad.' just because it's not aligned.",
+        "contextThirdParagraph": "coherence isn't about perfection — it's about congruence. when what you feel, what you know, and where you are all begin to sync. you know the feeling. the nervous system exhales. the pretending stops.",
+        "contextFourthParagraph": "this is why certain places feel like home, and certain conversations make you tired. your body is reading coherence long before your mind can explain it.",
+        "contextFifthParagraph": "and the more coherent you become, the less you can tolerate distortion. not out of judgment — but out of attunement. you've become sensitive to truth.",
+        "contextSixthParagraph": "coherence isn't a performance. it's a baseline. it's the steady frequency of something that doesn't need to prove anything, but reveals everything.",
+        "contextSeventhParagraph": "when you're in your own coherence, you stop chasing. you stop explaining. you stop overcompensating. you just *are*. and that *being* does the attracting for you.",
+        "contextEighthParagraph": "and this is where frequency compatibility comes in.",
+        "contextExtraFirstParagraph": "compatibility isn't about shared hobbies or matching playlists — it's resonance. it's the way two nervous systems tune each other instead of drain each other.",
+        "contextExtraSecondParagraph": "some people feel good because they're familiar. others feel like recognition, even if you've never met before. that's frequency. a unique pattern that harmonizes with yours.",
+        "contextExtraThirdParagraph": "true compatibility isn't perfect harmony all the time — it's the ability to stay in tune through change. not forced. not faked. just attuned. there's space to be, not just to perform.",
+        "contextExtraFourthParagraph": "if you feel like you have to dim yourself to keep the connection, it's not resonance — it's resistance. and resistance always asks you to betray yourself first.",
+        "contextExtraFifthParagraph": "you'll know it's real when you stop second-guessing. when you're not waiting for the crash. when your nervous system says yes before your mind can name it.",
+        "contextExtraSixthParagraph": "frequency compatibility doesn't mean you'll agree on everything. it means your *fields* can handle the dissonance without distortion. that's rare. and it's real.",
+        "contextExtraFinalParagraph": "so if you're feeling off, don't just ask: 'what's wrong with me?' ask: 'is this field coherent with who i've become?'"
+      },
+      "creationIsntProduction": {
+        "title": "creation isn't production",
+        "contextFirstParagraph": "somewhere along the way, we stopped calling it creation and started calling it content. art became output. expression became engagement. process became performance. the soul's slow unfolding got shoved into a publishing schedule.",
+        "contextSecondParagraph": "we've been taught to measure worth by pace, productivity, visibility. to believe that if we're not constantly making, posting, producing — we're falling behind. but behind what? who decided what 'behind' even means?",
+        "contextThirdParagraph": "soul doesn't work like that. soul doesn't do weekly rollouts. it doesn't post for reach. it doesn't rush to stay relevant. soul moves in seasons. in silence. in unseen gestation.",
+        "contextFourthParagraph": "when you're creating from soul, it might look like you're doing nothing. you're resting, sensing, listening. sometimes the 'work' is invisible — it's the clearing, the softening, the remembering. nothing immediate to show. but everything is changing.",
+        "contextFifthParagraph": "society wants finished products. soul wants presence. society says 'make more.' soul says 'be here.' the tension between the two can make you feel like you're failing — but you're not. you're just moving at the speed of realness.",
+        "contextSixthParagraph": "we weren't made to produce 24/7. we were made to live, to witness, to transmute. sometimes the most sacred act of creation is letting something take the time it takes — even if no one claps, even if no one sees.",
+        "contextSeventhParagraph": "you can force soul. you can't demand vision. you can't schedule breakthroughs. but you can prepare the space. protect the field. stay close to what’s true — even if it doesn't make sense yet.",
+        "contextEighthParagraph": "the sacred act of creation isn't what you post — it's how you live. it's the frequency you hold while no one's watching. it's the honesty you carry into everything. it's the permission you give yourself to move at the rhythm of what’s real.",
+        "contextFinalParagraph": "so if you're not producing — good. maybe you're actually creating. and maybe what's coming through you is too whole, too alive, too true to be rushed."
+      },
+      "scienceWillCatchUp": {
+        "title": "science will catch up eventually",
+        "contextFirstParagraph": "science calls us carbon-based lifeforms. it names the neurons, the tissues, the molecules. it measures our breath. it scans our brains. but it still can't explain presence. it can't explain intuition. it has no formula for knowing before knowing.",
+        "contextSecondParagraph": "it treats the soul like a metaphor. energy like a side effect. the felt world is dismissed as 'subjective.' but here's the thing: science only measures what it *already* knows how to name. it has no tools for the sacred.",
+        "contextThirdParagraph": "you were a field before you were a form. before bone, before blood, before breath. your existence began in resonance. you were held in a field of frequency — and that field didn't need proof to be real.",
+        "contextFourthParagraph": "before the mind came online, you were already in deep communication. with the mother. with the world. with the unseen. you didn't speak — you sensed. you didn't see — you absorbed. perception was your first language.",
+        "contextFifthParagraph": "in the womb, the first sense is touch. then sound. your whole world is made of vibration. not one image. just rhythm. pulse. the drum of her heartbeat. the music of her emotions. the frequency of her field. and that was your reality. not a theory — direct truth.",
+        "contextSixthParagraph": "but then you arrive. light floods in. the eyes dominate. you begin to trust sight over sensation. language over frequency. image over intuition. and just like that, the original language is buried under data.",
+        "contextSeventhParagraph": "science teaches you to trust the measurable. but what's measurable is only a fraction of what's real. it never taught you how to trust your field. it never taught you that your sensitivity is accuracy. embodied truth. ancestral accuracy.",
+        "contextEighthParagraph": "it's no coincidence that healing doesn't begin in logic — it begins in sound. in breath. in sensation. we heal by returning to the original language: frequency. the language of the womb. the universe's mother tongue.",
+        "contextNinthParagraph": "science will talk about biofields, coherence, entrainment, quantum entanglement — and still miss what your body has known since the beginning. that resonance is real. and some things you don't understand, you *remember*.",
+        "contextTenthParagraph": "what's tragic isn't that science is slow. it's that society worships its slowness. it mocks the felt truth in favor of what’s externally proven. and yet — some part of you still knows. still feels. still hums beneath the noise.",
+        "contextEleventhParagraph": "you don't need a peer-reviewed journal to know what you feel in your chest when someone's presence shifts the room. you don't need approval to trust what you hear inside when the world goes quiet. you don't need validation to remember what you were born with.",
+        "contextTwelfthParagraph": "you are not just a nervous system. you are the entire field around it. the intelligence before the signal. the pulse before the brainwave. the song before the lyrics.",
+        "contextFinalParagraph": "so yes, science will catch up eventually. it always does — 200 years too late. but you? you already know. you always did. and your frequency is still the most ancient, accurate language there is."
+      },
+      "theArchitectureOfForgetting": {
+        "title": "the architecture of forgetting",
+        "contextFirstParagraph": "they designed it so you'd forget. slowly. silently. but deeply. not with violence — with paperwork. appointments. insurance. forms. they made your disconnection so normal that you'd thank them for it.",
+        "contextSecondParagraph": "the healthcare system doesn't treat you — it segments you. cuts your body into parts. isolates organs. numbs symptoms. tells you the womb is a problem. tells your sensitivity is a disorder. gives it a name, then gives you a pill to silence it.",
+        "contextThirdParagraph": "but where is the room for energy? for the memory inside your cells? for the trauma that doesn't live in a chart but still shapes how you breathe? they don't have a field for that. so they call it something else: psychosomatic. like that word erases its truth.",
+        "contextFourthParagraph": "the system doesn't want you to rest. it calls rest laziness. calls slowness depression. calls exhaustion burnout and offers caffeine instead of asking why. asks if you've been 'productive' as if that's the point of your existence.",
+        "contextFifthParagraph": "they don't teach you how to feel. they teach you to memorize. repeat. obey. to sit still when your body wants to run, cry, scream. they call your sensitivity a distraction instead of recognizing it as intelligence. embodied truth. ancestral accuracy.",
+        "contextSixthParagraph": "they extract. from your time. your body. your soul. they monetize your exhaustion, pathologize your intuition, capitalize your illness. they've built entire industries on your disconnection — then market you the cure for the symptoms they created.",
+        "contextSeventhParagraph": "the entire culture is a loop of suppression. medicate the signal. silence the symptom. diagnose the spirit. label the longing. and if you don't respond well? the system assumes something is broken. never that it was the system that’s sick.",
+        "contextEighthParagraph": "but beneath all of it… the field still remembers. the breath knows the truth. your womb knows the cycles. your body knows what it was made for — movement, stillness, communion, feeling, love. and it speaks. even when no one listens.",
+        "contextNinthParagraph": "somewhere in you, the ancient blueprint lives. before hospitals. before clocks. before diagnoses. before industry. before grind culture. there was rhythm. intuition. trust in the unseen. surrender to the field. coherence, not control.",
+        "contextTenthParagraph": "it's not that you're broken. it's that you were never designed for this. you weren't meant to be a worker. a patient. a user. a number. you are a whole field of intelligence, compressed into form. and your coherence is your resistance.",
+        "contextEleventhParagraph": "reconnection is rebellion. feeling is rebellion. listening to the body is rebellion. resting without guilt. creating without performance. healing without asking permission. this is the way back.",
+        "contextFinalParagraph": "the architecture of forgetting is dense. but not unbreakable. and if you've found your way here… maybe you've already started to remember. the real system was never built by them. it lives in you."
       }
     }
   },
-  "project": {
-    "logma": {
-      "contextFirstParagraph": "Logma production is a movie production company based in Rennes. Founded by Baptiste Fablet. At the start of this project, there was already a logma production site created by the company director with Wordpress.",
-      "contextSecondParagraph": "The decision was made to rebuild this site from scratch, with a simple, tried-and-tested technical stack, to try and make a website without a Framework and without someoneonce helping to make it fast and efficient.",
-      "contextThirdParagraph": "In order to make the entrepreneur autonomous in the management of this site, it was necessary to develop a back-office from which he could publish new photos, add projects and links to his videos.",
-      "goalFirst": "Redesign of website with existing graphic identity",
-      "goalSecond": "Creating a responsive website",
-      "goalThird": "Develop a back-office to manage the site",
-      "goalFourth": "Optimize SEO",
-      "goalFifth": "Improve loading speed and overall performance",
-      "goalSixth": "Put the website into production"
+  "works": {
+    "theJokeIsGod": {
+      "contextFirstParagraph": "the joke is god is an experimental collection of poetry, satire, and sacred comedy — a passport stamped by the beloved herself. written in the voice of divine mischief, the book drifts between scripture and stand-up, meditation and absurd report, prayer and parody.",
+      "contextSecondParagraph": "it is not “literature” in the usual sense; it’s a cosmic prank disguised as one. think immigration forms rewritten by love, breaking news bulletins about eternity, meditation manuals that collapse into laughter.",
+      "contextThirdParagraph": "issued to: any reader willing to laugh. valid ∞ across all realms.",
+      "contextFourthParagraph": "side note: this book was written and published in a day (the beloved possessed me)."
     },
-    "pangaia": {
-      "contextFirstParagraph": "Pangaia is an open-source application designed to raise awareness of plants.",
-      "contextSecondParagraph": "The aim was to create a fun and practical interface for managing your garden.",
-      "contextThirdParagraph": "But also to discover new plants using gamification.",
-      "contextFourthParagraph": "Provide information on the flora around us, depending on the user's location.",
-      "goalFirst": "Try out the application in demo mode",
-      "goalSecond": "Go to plant data sheet",
-      "goalThird": "Model your garden",
-      "goalFourth": "Add a plant to your garden",
-      "goalFifth": "Connect to the weather in real time",
-      "goalSixth": "Reminders for tasks to be carried out on your plant or in your garden",
-      "tasksDoneFirst": "Help with database design and modeling",
-      "tasksDoneSecond": "Application design",
-      "tasksDoneThird": "Work on UX with usability tests",
-      "tasksDoneFourth": "Creating a dashboard",
-      "tasksDoneFifth": "Creation of a page listing plants and categories",
-      "tasksDoneSixth": "Setting up an API and documentation with Swagger",
-      "CDMText": "Partial conceptual modeling of the database, concerning changes to be made to the project.",
-      "PDMText": "Complete relational database modeling."
+    "leaveTheDoorOpen": {
+      "contextFirstParagraph": "leave the door open is a novel written in fragments and silences. eva drifts through the aftermath of loss; sol arrives without a plan, and stays without a reason. between them: a spare room, a second pot of tea, a presence that refuses to leave.",
+      "contextSecondParagraph": "this isn’t a story about fixing grief. it’s about living beside it. it’s about the stillness that grows when nothing needs to be solved, and the kind of love that lingers without asking for anything in return.",
+      "contextThirdParagraph": "for readers drawn to quiet rooms, pauses between words, and the ache of memory, leave the door open is an invitation to sit, stay, and simply be.",
+      "contextFourthParagraph": "side note: this book was written in the dublin airport, in six hours, between flights."
     },
-    "clench": {
-      "contextFirstParagraph": "An exercise as part of a CSS Framework & Layout course at MyDigitalSchool Rennes.",
-      "contextSecondParagraph": "The aim was to create the graphic interface of a web application in a week. No backend, but all graphic design.",
-      "contextThirdParagraph": "A campus-themed website, to create a fictitious medium on which the student union could communicate.",
-      "contextFourthParagraph": "With the help of Baptiste Marie, also a student, we created the graphic identity and build the website.",
-      "goalFirst": "Design a website and a wireframe based on customer's specifications",
-      "goalSecond": "Developing a simple graphic identity",
-      "goalThird": "Develop the front end of the application using a CSS Framework",
-      "goalFourth": "Put the website into production",
-      "goalFifth": "Working as a team",
-      "goalSixth": "Meet the one-week deadline"
+    "flow": {
+      "contextFirstParagraph": "flow is not a collection of poems so much as a current you step into. the book bends form, looping through tides, moons, and the quiet machinery of the universe. water rises, falls, returns. language dissolves and reforms. pages echo like waves against the shore—always the same, never the same.",
+      "contextSecondParagraph": "it’s not meant to be read once. it’s meant to be lived through, like a cycle: inhale, exhale. ebb, surge. loss, return."
     },
-    "emc2": {
-      "contextFirstParagraph": "As part of my work-study program at Screenup, I developed the agenda page and the event page template for the EMC2 performance hall in St Grégoire.",
-      "contextSecondParagraph": "I used the ACF plugin in WordPress to add custom fields, allowing the venue team to easily add content for the creation of events.",
-      "contextThirdParagraph": "The project was based on a mockup created by Screenup’s web designer, aligning with the client’s visual identity and needs.",
-      "contextFourthParagraph": "Production updates were tested in staging and deployed via SSH using Visual Studio Code.",
-      "goalFirst": "Create an intuitive interface to view upcoming events.",
-      "goalSecond": "Enable easy event management through the WordPress back office.",
-      "goalThird": "Apply a design consistent with the EMC2 visual identity.",
-      "goalFourth": "Test in staging to ensure site stability.",
-      "goalFifth": "Deploy updates to production via SSH.",
-      "goalSixth": "Optimize navigation for a better user experience."
+    "research": {
+      "contextFirstParagraph": "the research that i'm exploring is how different frequencies — auditory, environmental, and interpersonal — affect nervous system regulation, perception, and embodiment.",
+      "contextSecondParagraph": "traditional neuroscience focuses on stimulus-response. i'm focused on an expanded model of awareness, where subtle frequencies (theta, delta, infrasonic) create shifts not just in cognition, but in identity, memory, and connection.",
+      "contextThirdParagraph": "through blending biometrics (HRV, EEG) with qualitative somatic feedback, i want to explore how states of deep coherence (induced by sound, stillness, and relational presence) alter what people remember, sense, and even attract.",
+      "contextFourthParagraph": "i’m especially interested in how women’s nervous systems — attuned to lunar, hormonal, and energetic rhythms — respond differently to deep frequency states. what is perceived as ‘sensitivity’ may in fact be advanced perception.",
+      "contextFifthParagraph": "ultimately, the goal is to bridge scientific and metaphysical perspectives: to prove what mystics have always known — coherence heals. resonance remembers.",
+      "goalFirst": "research the physiological effects of low-frequency sound on the nervous system (especially in womb states)",
+      "goalSecond": "develop frameworks to study perception as a measurable field influenced by coherence",
+      "goalThird": "collect data on emotional, energetic, and intuitive changes during deep frequency exposure",
+      "goalFourth": "reclaim sensitivity as intelligence — especially in feminine-bodied beings"
     },
-    "aidella": {
-      "contextFirstParagraph": "Les Terres d'Aidella is a dog breeding kennel located in the Vosges region. Passionate animal lovers with the goal of sharing their passion and expertise with as many people as possible.",
-      "contextSecondParagraph": "The problem was that their web presence was very limited, and they had no platform to showcase their activities online apart from their Facebook page.",
-      "contextThirdParagraph": "So we addressed this with Nathan Fournil in charge of content creation and writing, and myself responsible for the design, website development, and deployment.",
-      "goalFirst": "Establish an online presence",
-      "goalSecond": "Increase visibility by working on SEO",
-      "goalThird": "Develop a back office for content management",
-      "goalFourth": "Create an intuitive and visually appealing interface for visitors",
-      "goalFifth": "Allow visitors to discover the different dog breeds",
-      "goalSixth": "Present the kennel and its activities",
-      "tasksDoneFirst": "Design and modeling of the relational database",
-      "tasksDoneFirstDetails": "We had to consider the client’s needs and present a robust and scalable model.",
-      "tasksDoneSecond": "Backend development with Laravel",
-      "tasksDoneSecondDetails": "Laravel was chosen for its MVC pattern and MySQL database, providing a solid stack for building and improving the project in the future. Additionally, using Orchid for the back office made content management easier.",
-      "tasksDoneThird": "The front-end was developed with Vue.js",
-      "tasksDoneThirdDetails": "Each page is a Blade template, based on a page model that contains all metadata tags, avoiding the need to use Vue for SEO management.",
-      "tasksDoneFourth": "Back office development",
-      "tasksDoneFourthDetails": "Orchid allows for easy content management. It is possible to create pages, articles, categories, images, users, etc., all through an intuitive and user-friendly interface.",
-      "tasksDoneFifth": "Deployment pipeline to a third-party web server",
-      "tasksDoneFifthDetails": "Thanks to the Homeserver project, the project can be precompiled with Jenkins and the artifact sent to the production server. A change to the `main` branch of the Git repository is enough for the site to be automatically updated. The database is also updated with migrations using the `make deploy` command from the Makefile.",
-      "tasksDoneFifthDetailsSecond": "This method saves significant time and avoids needing npm or any JS package manager on the production server."
+    "sound": {
+      "contextFirstParagraph": "i work with sound as a language the body already knows.",
+      "contextSecondParagraph": "through piano, guitar, and intuitive composition, i explore how frequency and resonance affect the nervous system, memory, and subtle states of being.",
+      "contextThirdParagraph": "my practice is rooted in the belief that sound isn’t just heard — it’s felt, remembered, and carried through the body like a wave.",
+      "contextFourthParagraph": "i’m interested in how music becomes medicine, how vibration reorganizes the field, and how certain tones can open spaces that words can’t.",
+      "contextFifthParagraph": "each composition becomes a kind of transmission — not to perform, but to attune.",
+      "contextSixthParagraph": "the goal isn’t performance, it’s presence. coherence. remembering.",
+      "contextSeventhParagraph": "i’m currently exploring how to create immersive experiences where people can feel the shifts in their own system through sound — where healing isn’t an effort, but a frequency.",
+      "goalFirst": "redefine sound as a modality of healing rather than entertainment",
+      "goalSecond": "compose music that allows people to enter altered states naturally",
+      "goalThird": "build a body of work that bridges intuitive musicianship with somatic coherence",
+      "goalFourth": "collaborate with artists, healers, and scientists to deepen the impact of resonant sound in integrative spaces"
     },
-    "homeserver": {
-      "contextFirstParagraph": "This project was carried out by Pierre, who owns a video production company, and me, a web developer.",
-      "contextSecondParagraph": "A team you wouldn't necessarily count on to set up a server, I agree. But we share a common passion. Digging into subjects we know nothing about and trying to understand how a server works and how to set it up.",
-      "goalFirst": "Make a storage server that can also deploy applications",
-      "goalSecond": "Being able to access the server from anywhere",
-      "goalThird": "It is possible to edit a video project on remote",
-      "goalFourth": "Install automation services such as Jenkins, Sonarqube, etc.",
-      "goalFifth": "Have online website monitoring and alerts in case of loss of services",
-      "goalSixth": "Host pre-production sites before putting them online",
-      "goalSeventh": "Redundancy in data and remote access to it",
-      "goalEighth": "Maintain this system easily",
-      "goalNinth": "Be less expensive than a pre-assembled equivalent with the same performance",
-      "specs": {
-        "motherboard": "🧠 Motherboard + processor",
-        "ram": "⚡ RAM",
-        "case": "🗄️ Case",
-        "powerSupply": "🔌 Power supply",
-        "ssdBoot": "💾 SSD boot",
-        "ssdNas": "💽 SSD Nas",
-        "splitter": "➿ Répartiteur SATA",
-        "hddSpecs": "🗃️ HDD Western Digital"
-      }
+    "threshold": {
+      "contextFirstParagraph": "threshold is my offering to the world.",
+      "contextSecondParagraph": "born from my own search for a place to simply be, threshold is a living emotional habitat.",
+      "contextThirdParagraph": "our world rewards overstimulation. i was praised while my nervous system unraveled. there was no space that asked me to breathe, no design that held me in presence.",
+      "contextFourthParagraph": "threshold is my answer.",
+      "contextFifthParagraph": "not wellness. not productivity. it's presence technology. environments that listen to the body. architecture that regulates instead of fragments. design that restores instead of extracts.",
+      "contextSixthParagraph": "threshold is a practice, a process, and a product. it is a way to come home to yourself in a world that never stops pulling you away. a sanctuary built from neuroscience, sensory design, and care.",
+      "contextSeventhParagraph": "i'm building threshold in public, as a way to share the journey and invite others to join. if you're curious, come say hi at https://threshold.to"
     }
   },
   "alt": {

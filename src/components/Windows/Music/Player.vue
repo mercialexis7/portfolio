@@ -60,9 +60,39 @@ const updateCurrentTime = () => {
   }
 }
 
+// Function to get the correct filename for a track
+const getTrackFilename = (track) => {
+  const filenameMap = {
+    '0gws6FQUcFkNQQ7zTSPHQ3': 'Your Voice [lG3DvOzlZV4].mp3',
+    '2UXEwIOtNGUUgGdXnds8V7': 'Goapele   Closer.mp3',
+    '69NZl0552PdRSLB1FtzJ8V': 'Nobody Knows Me.mp3',
+    '1ew2tHNanpNqx9cV15hGYM': 'Softly Softly.mp3',
+    '7KZqVqDuJOlxwwZa6mmOGS': 'I Wanna Be Where You Are (Unedited Mix).mp3',
+    '0VyCznZeMBOKcYAbg5tBn0': 'Luedji Luna - Asas.mp3',
+    '5wAjg3auML6dlNuTxgipWn': 'Give Myself to You.mp3',
+    '6kpNsMaTHS55hHPKJAagsT': 'Yuri Tanaka  Sky Restaurant.mp3',
+    '5cndcvx5f5sR80N5RolUh4': 'Bliss - Wish You Were Here.mp3',
+    '15EPc80XuFrb2LmOzGjuRg': 'GoldLink - Crew ft. Brent Faiyaz, Shy Glizzy.mp3',
+    '4RE2d0lbKxbndeTy73eu4d': 'Sade Adu - Young Lion (Official Audio).mp3',
+    '75w90hoCMVISvw80Kqbznq': 'Paul Grant - U (feat. brayla) (Official Audio).mp3',
+    '5nkUIVKqOqdpB6ApKgEMkv': 'Jhene Aiko - Stay Ready (What A Life) (Lyrics) ft. Kendrick Lamar.mp3',
+    '0ObFJdF5BiheDRKAXNjrpS': 'O Sonho Voltou.mp3',
+    '4NaIl2XLSgc5AoFIZm1NIU': 'Poxa.mp3',
+    '5HCTbcF18u5DcYNwEWWf3n': 'Ayonha.mp3',
+    '6nVT7yKO7jV4Qw6PZ9B0PK': 'Thievery Corporation - Saudade [Official Audio].mp3',
+    '6zE2xJvFmHEPECsvLki2CE': 'Alberto Baldan Bembo - Linda (1975).mp3',
+    '6lezg9kxhv97VVHlsbRpYu': 'iliona - J\'ai du mal (Clip Officiel).mp3',
+    '1NlWBpNYAnFT7gMGyC0Y1M': 'Mereba - Sandstorm ft. JID (Audio).mp3',
+    '3kXUheF6zMgjzNlNp0u2jo': 'Snow over Leningrad.mp3',
+    '0FTpFi1BlqoBVELlh7jK50': 'Le Depart.mp3'
+  }
+  
+  return filenameMap[track.id] || `${track.id}.mp3`
+}
+
 const togglePlay = () => {
   isPlaying.value = !isPlaying.value
-  const audioFile = '/musics/' + currentTrack.value.id + '.mp3'
+  const audioFile = '/musics/' + getTrackFilename(currentTrack.value)
   if (isPlaying.value) {
     volumeStore.playAudio(audioFile)
     audioElement = volumeStore.audioElements[audioFile]
@@ -77,7 +107,7 @@ const togglePlay = () => {
 
 const previousTrack = () => {
   const currentIndex = props.playlist.findIndex((track) => track.id === currentTrack.value.id)
-  const currentAudioFile = '/musics/' + currentTrack.value.id + '.mp3'
+  const currentAudioFile = '/musics/' + getTrackFilename(currentTrack.value)
   volumeStore.pauseAudio(currentAudioFile)
   volumeStore.resetAudio(currentAudioFile)
   currentTime.value = 0
@@ -92,7 +122,7 @@ const previousTrack = () => {
     currentTrack.value = props.playlist[currentIndex - 1]
   }
 
-  const newAudioFile = '/musics/' + currentTrack.value.id + '.mp3'
+  const newAudioFile = '/musics/' + getTrackFilename(currentTrack.value)
   if (isPlaying.value) {
     volumeStore.playAudio(newAudioFile)
     audioElement = volumeStore.audioElements[newAudioFile]
@@ -102,7 +132,7 @@ const previousTrack = () => {
 
 const nextTrack = () => {
   const currentIndex = props.playlist.findIndex((track) => track.id === currentTrack.value.id)
-  const currentAudioFile = '/musics/' + currentTrack.value.id + '.mp3'
+  const currentAudioFile = '/musics/' + getTrackFilename(currentTrack.value)
   volumeStore.pauseAudio(currentAudioFile)
   volumeStore.resetAudio(currentAudioFile)
   currentTime.value = 0
@@ -117,7 +147,7 @@ const nextTrack = () => {
     currentTrack.value = props.playlist[currentIndex + 1]
   }
 
-  const newAudioFile = '/musics/' + currentTrack.value.id + '.mp3'
+  const newAudioFile = '/musics/' + getTrackFilename(currentTrack.value)
   if (isPlaying.value) {
     volumeStore.playAudio(newAudioFile)
     audioElement = volumeStore.audioElements[newAudioFile]
@@ -139,7 +169,7 @@ watch(
   () => props.trackToggled,
   (newTrack) => {
     if (newTrack !== currentTrack.value.id) {
-      const currentAudioFile = '/musics/' + currentTrack.value.id + '.mp3'
+      const currentAudioFile = '/musics/' + getTrackFilename(currentTrack.value)
       volumeStore.pauseAudio(currentAudioFile)
       volumeStore.resetAudio(currentAudioFile)
       currentTime.value = 0
@@ -149,7 +179,7 @@ watch(
       }
 
       currentTrack.value = props.playlist.find((track) => track.id === newTrack)
-      const newAudioFile = '/musics/' + currentTrack.value.id + '.mp3'
+      const newAudioFile = '/musics/' + getTrackFilename(currentTrack.value)
       if (isPlaying.value) {
         volumeStore.playAudio(newAudioFile)
         audioElement = volumeStore.audioElements[newAudioFile]
@@ -164,7 +194,7 @@ onUnmounted(() => {
     audioElement.removeEventListener('timeupdate', updateCurrentTime)
   }
   // Reset component state if window is closed
-  const currentAudioFile = '/musics/' + currentTrack.value.id + '.mp3'
+  const currentAudioFile = '/musics/' + getTrackFilename(currentTrack.value)
   volumeStore.pauseAudio(currentAudioFile)
   volumeStore.resetAudio(currentAudioFile)
   currentTime.value = 0

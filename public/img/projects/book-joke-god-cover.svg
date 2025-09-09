@@ -1,0 +1,9 @@
+<svg width="120" height="180" viewBox="0 0 120 180" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="180" fill="#2d5aa0" rx="8"/>
+  <rect x="10" y="10" width="100" height="160" fill="#ffffff" rx="4"/>
+  <text x="60" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2d5aa0">THE JOKE</text>
+  <text x="60" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2d5aa0">IS GOD</text>
+  <text x="60" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666">Poetry Collection</text>
+  <text x="60" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666">Alexis Musaelyan</text>
+  <text x="60" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666">2025</text>
+</svg>

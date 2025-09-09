@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage with images -->
+  <url>
+    <loc>https://alexismusaelyan.com/</loc>
+    <image:image>
+      <image:loc>https://alexismusaelyan.com/img/logo-portfolio-black.webp</image:loc>
+      <image:title>alexis musaelyan's creative world </image:title>
+      <image:caption>alexis musaelyan - poet, euthor, creator</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://alexismusaelyan.com/img/logo-portfolio-white.webp</image:loc>
+      <image:title>Alexis Musaelyan Portfolio Logo (White)</image:title>
+      <image:caption>Creative Portfolio - Poetry, Books & Digital Art</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Office page with images -->
+  <url>
+    <loc>https://alexismusaelyan.com/office</loc>
+    <image:image>
+      <image:loc>https://alexismusaelyan.com/img/office-picture.webp</image:loc>
+      <image:title>Alexis Musaelyan Creative Office Workspace</image:title>
+      <image:caption>Immersive Windows XP-inspired creative workspace featuring poetry, digital art, and professional documents</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://alexismusaelyan.com/img/profile-picture.webp</image:loc>
+      <image:title>Alexis Musaelyan Profile Picture</image:title>
+      <image:caption>Professional portrait of Alexis Musaelyan, creative writer and digital artist</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Individual image pages -->
+  <url>
+    <loc>https://alexismusaelyan.com/img/logo-portfolio-black.webp</loc>
+    <image:image>
+      <image:loc>https://alexismusaelyan.com/img/logo-portfolio-black.webp</image:loc>
+      <image:title>Alexis Musaelyan Creative Portfolio Logo</image:title>
+      <image:caption>Official logo for Alexis Musaelyan's creative portfolio featuring poetry collections and digital art</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://alexismusaelyan.com/img/logo-portfolio-white.webp</loc>
+    <image:image>
+      <image:loc>https://alexismusaelyan.com/img/logo-portfolio-white.webp</image:loc>
+      <image:title>Alexis Musaelyan Portfolio Logo (White Version)</image:title>
+      <image:caption>White variant of Alexis Musaelyan's portfolio logo for light backgrounds</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://alexismusaelyan.com/img/office-picture.webp</loc>
+    <image:image>
+      <image:loc>https://alexismusaelyan.com/img/office-picture.webp</image:loc>
+      <image:title>Creative Office Workspace</image:title>
+      <image:caption>Alexis Musaelyan's creative workspace showcasing the Windows XP-inspired portfolio interface</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://alexismusaelyan.com/img/profile-picture.webp</loc>
+    <image:image>
+      <image:loc>https://alexismusaelyan.com/img/profile-picture.webp</image:loc>
+      <image:title>Alexis Musaelyan Professional Portrait</image:title>
+      <image:caption>Professional headshot of Alexis Musaelyan, poet and digital creator</image:caption>
+    </image:image>
+  </url>
+
+</urlset>

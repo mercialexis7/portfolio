@@ -7,25 +7,25 @@
       @toggle-header="toggleHeader"
       @toggle-myProjects="openWindow('myProjects')"
       @toggle-contact="openWindow('contact')"
-      @toggle-myCV="openWindow('myCV')"
+      @toggle-aboutMe="openWindow('aboutMe')"
       @toggle-documents="openWindow('documents')"
       @toggle-pictures="openWindow('pictures')"
       @toggle-music="openWindow('music')"
       @toggle-calendar="openWindow('calendar')"
       @toggle-minesweeper="openWindow('minesweeper')"
       @toggle-notepad="openWindow('notepad')"
-      @toggle-doom="openWindow('doom')"
       @toggle-terminal="openWindow('terminal')"
     />
     <DesktopAppsLayout
       :entities="entities"
-      @toggle-MyProjects="openWindow('myProjects')"
+      @toggle-myProjects="openWindow('myProjects')"
       @toggle-contact="openWindow('contact')"
-      @toggle-myCV="openWindow('myCV')"
+      @toggle-aboutMe="openWindow('aboutMe')"
+      @toggle-documents="openWindow('documents')"
+      @toggle-pictures="openWindow('pictures')"
       @toggle-music="openWindow('music')"
       @toggle-minesweeper="openWindow('minesweeper')"
       @toggle-notepad="openWindow('notepad')"
-      @toggle-doom="openWindow('doom')"
     />
     <div v-for="window in windows" :key="window.id">
       <Window
@@ -68,7 +68,7 @@ import Header from '@/components/Header/Header.vue'
 import Footer from '@/components/Footer/Footer.vue'
 
 import Minesweeper from '@/components/Windows/Minesweeper.vue'
-import MyCV from '@/components/Windows/MyCV/MyCV.vue'
+import AboutMe from '@/components/Windows/AboutMe/AboutMe.vue'
 import Music from '@/components/Windows/Music/Music.vue'
 import ContactMe from '@/components/Windows/ContactMe.vue'
 import MyProjects from '@/components/Windows/MyProjects.vue'
@@ -76,7 +76,6 @@ import Documents from '@/components/Windows/Documents/Documents.vue'
 import Pictures from '@/components/Windows/Pictures.vue'
 import Calendar from '@/components/Windows/Calendar/Calendar.vue'
 import Notepad from '@/components/Windows/Notepad.vue'
-import Doom from '@/components/Windows/Doom.vue'
 import Terminal from '@/components/Windows/Terminal.vue'
 
 import DesktopAppsLayout from '@/layouts/DesktopAppsLayout.vue'
@@ -91,7 +90,7 @@ const localeStore = useLocaleStore()
 
 onMounted(() => {
   // Ensure the localeStore is updated with the correct locale from localStorage
-  const storedLocale = localStorage.getItem('currentLocale') || 'fr'
+  const storedLocale = localStorage.getItem('currentLocale') || 'en'
   localeStore.setLocale(storedLocale)
 
   windowsStore.loadState()
@@ -118,14 +117,13 @@ provide('activeWindow', activeWindow)
 const components = {
   MyProjects: shallowRef(MyProjects),
   ContactMe: shallowRef(ContactMe),
-  MyCV: shallowRef(MyCV),
+  AboutMe: shallowRef(AboutMe),
   Music: shallowRef(Music),
   Minesweeper: shallowRef(Minesweeper),
   Documents: shallowRef(Documents),
   Pictures: shallowRef(Pictures),
   Calendar: shallowRef(Calendar),
   Notepad: shallowRef(Notepad),
-  Doom: shallowRef(Doom),
   Terminal: shallowRef(Terminal)
 }
 

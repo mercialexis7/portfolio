@@ -1,1 +1,37 @@
-Sitemap: https://pauljaguin.com/sitemap.xml
+# Robots.txt for Alexis Musaelyan Portfolio
+# Allow all web crawlers to access the site
+
+User-agent: *
+Allow: /
+
+# Allow access to important directories
+Allow: /img/
+Allow: /pdf/
+Allow: /calendar/
+Allow: /css/
+Allow: /js/
+
+# Disallow access to development and system files
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /tests/
+Disallow: /.git/
+Disallow: /dist/
+Disallow: /build/
+
+# Disallow access to configuration files
+Disallow: /vite.config.js
+Disallow: /package.json
+Disallow: /postcss.config.js
+Disallow: /tailwind.config.js
+Disallow: /sonar-project.properties
+Disallow: /Jenkinsfile
+Disallow: /Dockerfile
+Disallow: /nginx.conf
+
+# Crawl delay to be respectful to server resources
+Crawl-delay: 1
+
+# Additional sitemaps for different content types
+Sitemap: https://alexismusaelyan.com/sitemap.xml
+Sitemap: https://alexismusaelyan.com/sitemap-images.xml

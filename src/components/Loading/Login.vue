@@ -82,10 +82,10 @@ import ContentCenter from '@/layouts/ContentCenter.vue'
 
 const { locale } = useI18n()
 const dropdownOpen = ref(false)
-const locales = ['en', 'fr']
+const locales = ['en', 'ru']
 const localeNames = {
   en: 'English',
-  fr: 'Français'
+  ru: 'Русский'
 }
 
 // Initialize currentLocale from localStorage if it exists, otherwise use the default locale
@@ -102,7 +102,8 @@ watch(currentLocale, (newLocale) => {
 })
 
 const flagSrc = computed(() => {
-  return `/img/icons/langs/flag-${currentLocale.value}.webp`
+  const extension = currentLocale.value === 'ru' ? 'png' : 'webp'
+  return `/img/icons/langs/flag-${currentLocale.value}.${extension}`
 })
 
 const toggleDropdown = () => {

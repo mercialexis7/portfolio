@@ -11,7 +11,7 @@
 
 ![portfolio](https://github.com/user-attachments/assets/77a7b9c0-6276-43b4-8792-a1f6e86306f0)
 
-### [https://pauljaguin.com](https://pauljaguin.com)
+### [https://alexismusaelyan.com](https://alexismusaelyan.com)
 
 ## 👷 Disclaimers
 
@@ -29,11 +29,10 @@ I've been waiting for the Spotify team to review my application for extension re
 - Loading Screen & Login
 - Internationalisation 🇬🇧 En / 🇫🇷 Fr
 - Play Minesweeper
-- Play DOOM
 - Reach me by email
 - See my projects
 - Notepad
-- MyCv
+- AboutMe
 - My Images
 - My Calendar
 - Listen to my playlist
@@ -44,7 +43,7 @@ I've been waiting for the Spotify team to review my application for extension re
 Since WindowsXp design was not really meant to be eco friendly _(thanks to the billions of linear gradients)_
 I did my best to make it as lightweight as possible.
 
-[Link to Website Carbon Calculator website](https://www.websitecarbon.com/website/pauljaguin-com-office/)
+[Link to Website Carbon Calculator website](https://www.websitecarbon.com/website/alexismusaelyan-com-office/)
 
 ## 🎨 Webdesign
 

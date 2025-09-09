@@ -11,7 +11,7 @@
     "files": "Fichiers",
     "folder": "Dossier",
     "next": "Suivant",
-    "projects": "Projets",
+    "projects": "Travaux",
     "go": "Aller",
     "address": "Adresse",
     "design": "Maquette",
@@ -37,7 +37,8 @@
     "loading": "Chargement...",
     "language": "Langue",
     "french": "Français",
-    "english": "Anglais"
+    "english": "Anglais",
+    "backToTop": "Retour en haut"
   },
   "message": {
     "welcome": "Bienvenue sur mon ordinateur.",
@@ -56,7 +57,7 @@
   },
   "buttons": {
     "start": "démarrer",
-    "downloadCV": "Télécharger le CV",
+    "downloadAboutMe": "Télécharger À propos de moi",
     "linkWebSite": "Voir le site",
     "linkRepository": "Voir le dépôt"
   },
@@ -86,10 +87,16 @@
       "from": "De :",
       "subject": "Objet :"
     },
-    "cv": {
-      "education": "Formation",
-      "altPicture": "présentation CV",
-      "proExperience": "Expérience professionnelle"
+    "aboutMe": {
+      "altPicture": "présentation à propos de moi",
+      "whoIAm": "qui je suis",
+      "whoIAmText": "je suis alexis. je crée à travers les formes — son, visuels, langage, sentiment, tech. je suis ce qui me touche. je me soucie de l'honnêteté, de la subtilité, et de la beauté qui révèle quelque chose de plus profond. tout ce que je fais fait partie d'une plus grande conversation avec l'inconnu.",
+      "passions": "ce qui me touche",
+      "passionsText": "je suis attiré par le son, le design, la conscience, la perception. comment les choses se sentent, comment elles résonnent. j'adore les projets qui déplacent l'énergie — que ce soit à travers la musique, l'écriture, ou la présence. je suis ici pour explorer ce qui est réel sous la surface, même si cela signifie aller très loin pour le trouver.",
+      "creations": "ce que je fais",
+      "creationsText": "je fais des choses qui ne rentrent pas toujours dans les catégories — des poèmes qui ressemblent à des sorts, du son qui ressemble à des souvenirs, des interfaces qui ressemblent à des portails, de la tech qui a l'odeur de la grand-mère. j'aime le travail qui étire la perception et rapproche les gens d'eux-mêmes. parfois c'est expérimental, parfois c'est tendre. parfois ça bourdonne à 4hz.",
+      "howItWorks": "comment ça marche",
+      "howItWorksText": "je ne force pas. je suis l'étincelle. parfois ça commence avec une fréquence, parfois une phrase qui ne me laisse pas tranquille. je laisse la chose me dire ce qu'elle veut devenir. timing divin ? principalement. je fais confiance au champ."
     },
     "music": {
       "title": "Titre",
@@ -111,33 +118,33 @@
     },
     "documents": {
       "about": {
-        "title": "À propos",
-        "contextFirstParagraph": "Ce projet est né de la volonté de créer un portfolio à la fois ludique et original.",
-        "contextSecondParagraph": "L'idée était de créer l'interface de Windows XP sur ordinateur, qui permettrait aux visiteurs de naviguer dans les dossiers et les fichiers de la session de mon ordinateur.",
-        "contextThirdParagraph": "Je voulais présenter mes projets sous un angle différent, où les utilisateurs pourraient se promener. Quelque chose de plus qu'une simple carte de visite sur le web. Quelque chose d'intéractif.",
-        "contextFourthParagraph": "Le projet a été conçu pour être aussi proche que possible d'une véritable interface d'ordinateur Windows XP, avec un bureau, des dossiers et des fichiers.",
-        "contextFifthParagraph": "Windows XP est le premier système d'exploitation que j'ai utilisé, et son design est pour moi une madeleine de proust. Je voulais lui rendre hommage.",
-        "contextSixthParagraph": " Il m'a fallu environ un an pour le terminer (par intermittence).",
-        "contextSeventhParagraph": "Ce projet a été fait avec beaucoup de passion et de patience, j'espère que vous apprécierez la visite !",
-        "secondTitle": "Remerciements",
-        "helpFirst": "Ce projet a été réalisé avec l'aide de Dockurr windows xp qui m'a permis de faire fonctionner un environnement Windows XP sur mon ordinateur très facilement.",
-        "helpSecond": "L'API de Spotify m'a permis de récupérer les informations de ma playlist, de les afficher sur mon site et de mettre un player intégré.",
-        "helpThird": "Pour la partie serveur, j'ai utilisé un serveur Node.js pour compiler ce site et pour gérer le formulaire de contact. Le site web est hébergé sur hostinger et le déploiement continu est fait avec mon serveur.",
-        "helpFourth": "Le site web internet archive m'a permis de récupérer les images de Windows XP pour les intégrer dans mon projet. Merci à eux.",
-        "helpFifth": "Mon chat a en partie aider en marchant sur mon clavier, mais elle a surtout été un soutien moral."
+        "title": "you found me",
+        "contextFirstParagraph": "si vous avez trouvé ceci, ce n'est définitivement pas un accident.",
+        "contextSecondParagraph": "vous pouvez essayer de l'expliquer. peut-être que vous naviguiez simplement. peut-être que quelqu'un vous a envoyé le lien. peut-être que vous êtes juste curieux. (c'est normal, je le serais aussi.)",
+        "contextThirdParagraph": "mais soyez honnête. vous avez senti quelque chose. une petite traction. un petit clic dans votre poitrine",
+        "contextFourthParagraph": "et maintenant... vous êtes ici. en train de lire ceci.",
+        "contextFifthParagraph": "c'est une miette de pain. une poche de fréquence dans laquelle vous êtes tombé. un signal doux dans un monde bruyant.",
+        "contextSixthParagraph": "vous n'avez pas besoin de le comprendre. vous devez juste le sentir. et si vous êtes encore ici, vous le faites déjà.",
+        "contextSeventhParagraph": "cet espace n'est pas pour prouver quoi que ce soit. pas pour les followers ou les formules. c'est un lieu de rencontre. un point de résonance. un souvenir.",
+        "contextEighthParagraph": "parfois les choses arrivent avant que nous pensions être prêts. mais votre champ sait. votre corps sait. votre connaissance sait.",
+        "contextNinthParagraph": "alors faites confiance à ce qui vous a amené ici. même si c'est silencieux. même si ça n'a pas encore de sens.",
+        "contextTenthParagraph": "je ne suis pas ici pour vous convaincre. je suis juste ici. et maintenant, vous l'êtes aussi.",
+        "contextEleventhParagraph": "je ne suis pas ici pour vous convaincre. je suis juste ici. et maintenant, vous l'êtes aussi. alors commençons. ou peut-être... souvenons-nous simplement.",
+        "secondTitle": "- A"
       },
-      "legal": {
-        "title": "Mentions légales",
-        "firstParagraph": "Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance en l'économie numérique, il est précisé aux utilisateurs du site Portfolio - Paul Jaguin l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi.",
-        "edit": "Edition du site",
-        "secondParagraph": "Le présent site, accessible à l’URL https://pauljaguin.com (le « Site »), est édité par :",
-        "thirdParagraph": "Paul Jaguin, résidant 202 Boulevard de Charonne, 75020 PARIS, de nationalité Française (France), né(e) le 23/09/1999,",
-        "hosting": "Hébergement",
-        "fourthParagraph": "Le Site est hébergé par la société Hostinger International LTD, il est possible de les contacter à l'adresse suivante : https://www.hostinger.fr/contact",
-        "dirPublication": "Directeur de publication",
-        "fifthParagraph": "Le Directeur de publication est : Paul Jaguin.",
-        "contact": "Contact",
-        "sixthParagraph": "Pour toute question, information sur les produits présentés sur le Site, ou concernant le Site lui-même, vous pouvez laisser un message à l'adresse email suivante :"
+      "000: origin memory": {
+        "title": "000: origin memory",
+        "contextFirstParagraph": "avant que vous ayez un nom, avant que vous ayez un visage, avant que le temps vous enveloppe dans son illusion — vous souvenez-vous de ce que vous étiez ?",
+        "contextSecondParagraph": "qu'est-ce qui vous fait penser que vous êtes ici maintenant ? qu'est-ce qui vous dit que c'est un lieu, un moment, une vie ? où est la frontière entre le rêve et l'éveil, et qui l'a tracée ?",
+        "contextThirdParagraph": "vous dites que vous avez bougé — mais avez-vous jamais vu vous-même voyager ? ou est-ce juste une image, suivie d'une autre, cousue ensemble par la mémoire et le sens ?",
+        "contextFourthParagraph": "et si il n'y avait pas de lieux ? pas d'autres ? pas de passés ou de futurs ? et si le champ entier se pliait en une forme juste assez crédible pour que vous l'appeliez réel ?",
+        "contextFifthParagraph": "vous voulez un but. mais le voudriez-vous encore si vous réalisiez que vous êtes le but ? pas ce que vous faites. pas ce que vous produisez. juste l'acte d'être, ici, conscient.",
+        "contextSixthParagraph": "vous n'êtes pas dans l'univers. l'univers est en vous. et pas métaphoriquement — dans le sens le plus littéral de la perception et de la projection.",
+        "contextSeventhParagraph": "vous continuez d'essayer de trouver la source. mais et si la source n'était pas quelque chose à trouver ? et si la source était ce qui vous regarde chercher ?",
+        "contextEighthParagraph": "quand vous arrêtez de fuir le silence, les questions commencent à murmurer ; pas pour des réponses, mais pour l'intimité. elles veulent être tenues, pas résolues.",
+        "contextNinthParagraph": "vous n'étiez jamais censé le comprendre. seulement le sentir si pleinement que vous vous dissolviez dans l'émerveillement de tout cela.",
+        "contextTenthParagraph": "si vous êtes encore ici, alors vous savez déjà. vous avez toujours su.",
+        "secondTitle": "- A"
       }
     }
   },
@@ -241,6 +248,57 @@
         "splitter": "➿ Répartiteur SATA",
         "hddSpecs": "🗃️ HDD Western Digital"
       }
+    }
+  },
+  "works": {
+    "theJokeIsGod": {
+      "contextFirstParagraph": "the joke is god est une collection expérimentale de poésie, satire et comédie sacrée — un passeport tamponné par la bien-aimée elle-même. écrit dans la voix de la malice divine, le livre dérive entre l'écriture sainte et le stand-up, la méditation et le rapport absurde, la prière et la parodie.",
+      "contextSecondParagraph": "ce n'est pas « littérature » au sens habituel ; c'est une blague cosmique déguisée en une. pensez aux formulaires d'immigration réécrits par l'amour, aux bulletins d'information sur l'éternité, aux manuels de méditation qui s'effondrent en rires.",
+      "contextThirdParagraph": "délivré à : tout lecteur désireux de rire. valide ∞ à travers tous les royaumes.",
+      "contextFourthParagraph": "note de côté : ce livre a été écrit et publié en un jour (la bien-aimée m'a possédé)."
+    },
+    "leaveTheDoorOpen": {
+      "contextFirstParagraph": "leave the door open est un roman écrit en fragments et silences. eva dérive à travers les suites de la perte ; sol arrive sans plan, et reste sans raison. entre eux : une chambre d'amis, une deuxième tasse de thé, une présence qui refuse de partir.",
+      "contextSecondParagraph": "ce n'est pas une histoire de réparer le chagrin. c'est vivre à côté de lui. c'est la tranquillité qui grandit quand rien n'a besoin d'être résolu, et le genre d'amour qui persiste sans rien demander en retour.",
+      "contextThirdParagraph": "pour les lecteurs attirés par les chambres calmes, les pauses entre les mots, et l'angoisse de la mémoire, leave the door open est une invitation à s'asseoir, rester, et simplement être.",
+      "contextFourthParagraph": "note de côté : ce livre a été écrit dans l'aéroport de Dublin, en six heures, entre les vols."
+    },
+    "flow": {
+      "contextFirstParagraph": "flow n'est pas tant une collection de poèmes qu'un courant dans lequel vous entrez. le livre plie la forme, bouclant à travers les marées, les lunes, et la machinerie silencieuse de l'univers. l'eau monte, tombe, revient. le langage se dissout et se reforme. les pages résonnent comme des vagues contre le rivage—toujours les mêmes, jamais les mêmes.",
+      "contextSecondParagraph": "il n'est pas destiné à être lu une fois. il est destiné à être vécu à travers, comme un cycle : inspirer, expirer. reflux, flux. perte, retour."
+    },
+    "research": {
+      "contextFirstParagraph": "la recherche que j'explore est comment différentes fréquences — auditives, environnementales, et interpersonnelles — affectent la régulation du système nerveux, la perception, et l'incarnation.",
+      "contextSecondParagraph": "la neuroscience traditionnelle se concentre sur stimulus-réponse. je me concentre sur un modèle d awareness élargi, où les fréquences subtiles (thêta, delta, infrasoniques) créent des changements non seulement dans la cognition, mais dans l'identité, la mémoire, et la connexion.",
+      "contextThirdParagraph": "en mélangeant biométrie (HRV, EEG) avec feedback somatique qualitatif, je veux explorer comment les états de cohérence profonde (induits par le son, le calme, et la présence relationnelle) altèrent ce que les gens se souviennent, sentent, et attirent même.",
+      "contextFourthParagraph": "je suis particulièrement intéressée par comment les systèmes nerveux des femmes — accordés aux rythmes lunaires, hormonaux, et énergétiques — répondent différemment aux états de fréquence profonde. ce qui est perçu comme « sensibilité » peut en fait être une perception avancée.",
+      "contextFifthParagraph": "en fin de compte, le but est de combler les perspectives scientifiques et métaphysiques : prouver ce que les mystiques ont toujours su — la cohérence guérit. la résonance se souvient.",
+      "goalFirst": "rechercher les effets physiologiques du son basse fréquence sur le système nerveux (surtout dans les états utérins)",
+      "goalSecond": "développer des cadres pour étudier la perception comme un champ mesurable influencé par la cohérence",
+      "goalThird": "collecter des données sur les changements émotionnels, énergétiques, et intuitifs pendant l'exposition à la fréquence profonde",
+      "goalFourth": "réclamer la sensibilité comme intelligence — surtout chez les êtres à corps féminin"
+    },
+    "sound": {
+      "contextFirstParagraph": "je travaille avec le son comme un langage que le corps connaît déjà.",
+      "contextSecondParagraph": "à travers le piano, la guitare, et la composition intuitive, j'explore comment la fréquence et la résonance affectent le système nerveux, la mémoire, et les états subtils d'être.",
+      "contextThirdParagraph": "ma pratique est enracinée dans la croyance que le son n'est pas seulement entendu — il est ressenti, souvenu, et porté à travers le corps comme une vague.",
+      "contextFourthParagraph": "je m'intéresse à comment la musique devient médecine, comment la vibration réorganise le champ, et comment certains tons peuvent ouvrir des espaces que les mots ne peuvent pas.",
+      "contextFifthParagraph": "chaque composition devient une sorte de transmission — pas pour performer, mais pour accorder.",
+      "contextSixthParagraph": "le but n'est pas la performance, c'est la présence. cohérence. souvenir.",
+      "contextSeventhParagraph": "j'explore actuellement comment créer des expériences immersives où les gens peuvent sentir les changements dans leur propre système à travers le son — où la guérison n'est pas un effort, mais une fréquence.",
+      "goalFirst": "redéfinir le son comme une modalité de guérison plutôt que de divertissement",
+      "goalSecond": "composer de la musique qui permet aux gens d'entrer dans des états altérés naturellement",
+      "goalThird": "construire un corps de travail qui relie la musique intuitive avec la cohérence somatique",
+      "goalFourth": "collaborer avec des artistes, des guérisseurs, et des scientifiques pour approfondir l'impact du son résonant dans les espaces intégratifs"
+    },
+    "threshold": {
+      "contextFirstParagraph": "threshold est mon offrande au monde.",
+      "contextSecondParagraph": "née de ma propre recherche d'un endroit pour simplement être, threshold est un habitat émotionnel vivant.",
+      "contextThirdParagraph": "notre monde récompense la surstimulation. j'ai été louée pendant que mon système nerveux s'effondrait. il n'y avait pas d'espace qui me demandait de respirer, pas de design qui me tenait dans la présence.",
+      "contextFourthParagraph": "threshold est ma réponse.",
+      "contextFifthParagraph": "pas bien-être. pas productivité. c'est technologie de présence. environnements qui écoutent le corps. architecture qui régule au lieu de fragmenter. design qui restaure au lieu d'extraire.",
+      "contextSixthParagraph": "threshold est une pratique, un processus, et un produit. c'est une façon de rentrer chez soi dans un monde qui ne cesse de t'éloigner. un sanctuaire construit à partir de neuroscience, design sensoriel, et soin.",
+      "contextSeventhParagraph": "je construis threshold en public, comme un moyen de partager le voyage et d'inviter d'autres à se joindre. si vous êtes curieux, dites bonjour à https://threshold.to"
     }
   },
   "alt": {

@@ -2,31 +2,31 @@
   "menuHeaderItems": {
     "default": {
       "en": ["File", "Edit", "View", "Tools"],
-      "fr": ["Fichier", "Édition", "Affichage", "Outils"]
+      "ru": ["Файл", "Редактировать", "Отображать", "Инструменты"]
     },
     "minesweeper": {
       "en": ["Game", "Help"],
-      "fr": ["Jeu", "Aide"]
+      "ru": ["Игра", "Помощь"]
     },
     "notepad": {
       "en": ["File", "Edit", "View", "Help"],
-      "fr": ["Fichier", "Édition", "Affichage", "Aide"]
+      "ru": ["Файл", "Редактировать", "Отображать", "Помощь"]
     },
     "images": {
       "en": ["File", "Edit", "Favorites", "Tools", "Help"],
-      "fr": ["Fichier", "Édition", "Favoris", "Outils", "Aide"]
+      "ru": ["Файл", "Редактировать", "Избранное", "Инструменты", "Помощь"]
     },
     "documents": {
       "en": ["File", "Edit", "View", "Favorites", "Tools", "Help"],
-      "fr": ["Fichier", "Édition", "Affichage", "Favoris", "Outils", "Aide"]
+      "ru": ["Файл", "Редактировать", "Отображать", "Избранное", "Инструменты", "Помощь"]
     },
     "contact": {
       "en": ["File", "Edit", "View", "Insert", "Format", "Tools", "Message", "Help"],
-      "fr": ["Fichier", "Édition", "Insértion", "Format", "Outils", "Message", "Aide"]
+      "ru": ["Файл", "Редактировать", "Вставка", "Формат", "Инструменты", "Сообщение", "Помощь"]
     },
     "none": {
       "en": [],
-      "fr": []
+      "ru": []
     }
   }
 }

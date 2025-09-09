@@ -130,7 +130,7 @@ pipeline {
                         </div>
                         <p>The build was ${currentBuild.currentResult}. Check the <a href="${env.BUILD_URL}console">Console output</a> for details.</p>
                         <p>Check <a href="${env.BUILD_URL}">Jenkins build</a> to view the results.</p>""",
-                to: "jaguinpaul@gmail.com"
+                to: "musaelyanalexis@gmail.com"
             )
         }
     }

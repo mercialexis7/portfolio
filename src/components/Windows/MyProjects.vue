@@ -5,12 +5,7 @@ import { useGoBackStore } from '@/stores/goBackStore'
 
 import projectData from '@/data/projects-data.json'
 import WindowLeftMenu from '@/components/Windows/WindowLeftMenu.vue'
-import HomeserverContent from '@/components/Windows/MyProjects/HomeserverContent.vue'
-import ClenchContent from '@/components/Windows/MyProjects/ClenchContent.vue'
-import LogmaContent from '@/components/Windows/MyProjects/LogmaContent.vue'
-import PangaiaContent from '@/components/Windows/MyProjects/PangaiaContent.vue'
-import Emc2Content from './MyProjects/Emc2Content.vue'
-import AidellaContent from './MyProjects/AidellaContent.vue'
+import WorksContent from './MyProjects/WorksContent.vue'
 
 const props = defineProps({
   leftMenuType: String
@@ -73,12 +68,7 @@ const closeAllProjects = () => {
 
 // Map of component names to component objects
 const componentMap = {
-  HomeserverContent,
-  ClenchContent,
-  LogmaContent,
-  PangaiaContent,
-  Emc2Content,
-  AidellaContent
+  WorksContent
 }
 
 // Computed property that returns the component object based on the componentName of the selected project
@@ -142,7 +132,8 @@ window.addEventListener('click', (e) => {
           </div>
         </div>
         <!-- Component for the content is loaded there -->
-        <component :is="selectedComponent" />
+        <component :is="selectedComponent" v-if="goBackStore.currentActiveProject.componentName !== 'WorksContent'" />
+        <WorksContent v-else :workName="goBackStore.currentActiveProject.name" :coverImage="goBackStore.currentActiveProject.cover" :amazonLink="goBackStore.currentActiveProject.link" />
       </div>
     </div>
     <!-- Content window Foreach categories and projects -->

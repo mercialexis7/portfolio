@@ -48,22 +48,23 @@
         </div>
       </div>
       <!-- Footer preview image -->
-      <div class="w-full h-3/12 bg-white">
-        <div class="flex w-full h-full bg-no-repeat bg-32 bg-bottom-right-picture-menu bg-window-picture px-2 pt-1.5 pb-5 gap-4 overflow-x-auto">
-          <div ref="pictureContainer" v-for="(picture, index) in pictures" :key="picture.id" class="w-full h-full flex flex-col items-center">
+            <!-- Footer preview image -->
+      <div class="w-full h-3/12">
+        <div class="flex items-center px-2 pt-1.5 pb-5 gap-2 overflow-x-auto h-full">
+          <div ref="pictureContainer" v-for="(picture, index) in pictures" :key="picture.id" class="flex flex-col items-center flex-shrink-0">
             <div
               ref="pictureElements"
               @click="setCurrentPicture(picture)"
               :class="
-                'w-full h-full min-w-20 bg-no-repeat bg-contain bg-center cursor-pointer' +
-                (currentPicture && currentPicture.id === picture.id ? ' border-3 border-focus-blue' : ' border border-gray-300')
+                'w-20 h-16 bg-no-repeat bg-cover bg-center cursor-pointer rounded-sm' +
+                (currentPicture && currentPicture.id === picture.id ? '' : '')
               "
               :style="{ backgroundImage: 'url(' + picture.url + ')' }"
             />
             <p
               @click="setCurrentPicture(picture)"
               :class="[
-                'text-center inline-block font-trebuchet-pixel text-xxs cursor-pointer mt-1',
+                'text-center inline-block font-trebuchet-pixel text-xxs cursor-pointer mt-1 max-w-20 truncate',
                 currentPicture && currentPicture.id === picture.id ? 'bg-focus-blue px-1 my-px text-white' : ''
               ]"
             >

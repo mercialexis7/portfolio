@@ -10,28 +10,27 @@ const router = createRouter({
       name: 'home',
       component: Loader,
       meta: {
-        title: 'Portfolio | Paul Jaguin - Développeur Web',
+        title: 'Alexis Musaelyan - Creative Portfolio | Poetry, Books & Digital Art',
         metaTags: [
           {
             rel: 'canonical',
-            href: 'https://pauljaguin.com'
+            href: 'https://alexismusaelyan.com'
           },
           {
             name: 'title',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Alexis Musaelyan - Creative Portfolio | Poetry, Books & Digital Art'
           },
           {
             name: 'description',
-            content:
-              "Découvrez le portfolio de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+            content: 'Discover the creative portfolio of Alexis Musaelyan - poet, author, and digital creator. Explore published poetry collections, creative writing, and immersive digital experiences.'
           },
           {
             name: 'keywords',
-            content: 'portfolio, paul jaguin, développeur web, full stack, sites web, applications web, applications mobiles, JS, PHP, SQL, ORM, frameworks, DevOps'
+            content: 'Alexis Musaelyan, poetry, creative writing, digital art, portfolio, books, poetry collection, creative portfolio, digital creator, threshold, entrepreneur'
           },
           {
             name: 'author',
-            content: 'Paul Jaguin'
+            content: 'Alexis Musaelyan'
           },
           {
             name: 'robots',
@@ -51,32 +50,39 @@ const router = createRouter({
           },
           {
             name: 'apple-mobile-web-app-title',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Alexis Musaelyan'
           },
           {
             name: 'application-name',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Alexis Musaelyan'
           },
           {
             name: 'twitter:card',
-            content: 'summary'
+            content: 'summary_large_image'
           },
           {
             name: 'twitter:title',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Alexis Musaelyan - Creative Portfolio'
           },
           {
             name: 'twitter:description',
-            content:
-              "Découvrez le portfolio de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+            content: 'Discover the creative portfolio of Alexis Musaelyan - poet, author, and digital creator. Explore published poetry collections and immersive digital experiences.'
           },
           {
             name: 'twitter:image',
-            content: 'https://pauljaguin.com/img/logo-portfolio-black.webp'
+            content: 'https://alexismusaelyan.com/img/logo-portfolio-black.webp'
           },
           {
             name: 'twitter:image:alt',
-            content: 'Logo Portfolio Paul Jaguin'
+            content: 'Alexis Musaelyan Creative Portfolio Logo'
+          },
+          {
+            name: 'twitter:site',
+            content: '@alexismusaelyan'
+          },
+          {
+            name: 'twitter:creator',
+            content: '@alexismusaelyan'
           },
           {
             property: 'og:type',
@@ -84,36 +90,47 @@ const router = createRouter({
           },
           {
             property: 'og:title',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Alexis Musaelyan - Creative Portfolio | Poetry, Books & Digital Art'
           },
           {
             property: 'og:description',
-            content:
-              "Découvrez le portfolio de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+            content: 'Discover the creative portfolio of Alexis Musaelyan - poet, author, and digital creator. Explore published poetry collections, creative writing, and immersive digital experiences.'
           },
           {
             property: 'og:site_name',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Alexis Musaelyan'
           },
           {
             property: 'og:url',
-            content: 'https://pauljaguin.com'
+            content: 'https://alexismusaelyan.com'
           },
           {
             property: 'og:image',
-            content: 'https://pauljaguin.com/img/logo-portfolio-black.webp'
+            content: 'https://alexismusaelyan.com/img/logo-portfolio-black.webp'
           },
           {
             property: 'og:image:alt',
-            content: 'Logo Portfolio Paul Jaguin'
+            content: 'Alexis Musaelyan Creative Portfolio Logo'
+          },
+          {
+            property: 'og:image:width',
+            content: '1200'
+          },
+          {
+            property: 'og:image:height',
+            content: '630'
           },
           {
             property: 'og:locale',
-            content: 'fr_FR'
+            content: 'en_US'
           },
           {
             property: 'og:locale:alternate',
-            content: 'en_US'
+            content: 'ru_RU'
+          },
+          {
+            property: 'og:locale:alternate',
+            content: 'fr_FR'
           }
         ]
       }
@@ -123,28 +140,27 @@ const router = createRouter({
       name: 'Office',
       component: Office,
       meta: {
-        title: 'Bureau | Paul Jaguin - Développeur Web',
+        title: 'Office - Alexis Musaelyan Portfolio',
         metaTags: [
           {
             rel: 'canonical',
-            href: 'https://pauljaguin.com/office'
+            href: 'https://alexismusaelyan.com/office'
           },
           {
             name: 'title',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            content: 'Office - Alexis Musaelyan Portfolio'
           },
           {
             name: 'description',
-            content:
-              "Découvrez le bureau de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+            content: 'Explore Alexis Musaelyan\'s creative workspace - featuring poetry collections, digital art, blog posts, and professional documents in an immersive Windows XP-inspired interface.'
           },
           {
             name: 'keywords',
-            content: 'bureau, paul jaguin, développeur web, full stack, sites web, applications web, applications mobiles, JS, PHP, SQL, ORM, frameworks, DevOps'
+            content: 'Alexis Musaelyan, office, portfolio, poetry, digital art, blog, documents, creative workspace, Windows XP, poetry collection, creative writing'
           },
           {
             name: 'author',
-            content: 'Paul Jaguin'
+            content: 'Alexis Musaelyan'
           },
           {
             name: 'robots',
@@ -164,74 +180,92 @@ const router = createRouter({
           },
           {
             name: 'apple-mobile-web-app-title',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            content: 'Alexis Musaelyan'
           },
           {
             name: 'application-name',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            content: 'Alexis Musaelyan'
           },
           {
             name: 'twitter:card',
-            content: 'summary'
+            content: 'summary_large_image'
           },
           {
             name: 'twitter:title',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            content: 'Office - Alexis Musaelyan Portfolio'
           },
           {
             name: 'twitter:description',
-            content:
-              "Découvrez le bureau de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+            content: 'Explore Alexis Musaelyan\'s creative workspace - featuring poetry collections, digital art, blog posts, and professional documents in an immersive Windows XP-inspired interface.'
           },
           {
             name: 'twitter:image',
-            content: 'https://pauljaguin.com/img/logo-portfolio-black.webp'
+            content: 'https://alexismusaelyan.com/img/office-picture.webp'
           },
           {
             name: 'twitter:image:alt',
-            content: 'Logo Portfolio Paul Jaguin'
+            content: 'Alexis Musaelyan Creative Office Workspace'
           },
           {
-            name: 'og:type',
+            name: 'twitter:site',
+            content: '@alexismusaelyan'
+          },
+          {
+            name: 'twitter:creator',
+            content: '@alexismusaelyan'
+          },
+          {
+            property: 'og:type',
             content: 'website'
           },
           {
-            name: 'og:title',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            property: 'og:title',
+            content: 'Office - Alexis Musaelyan Portfolio'
           },
           {
-            name: 'og:description',
-            content:
-              "Découvrez le bureau de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+            property: 'og:description',
+            content: 'Explore Alexis Musaelyan\'s creative workspace - featuring poetry collections, digital art, blog posts, and professional documents in an immersive Windows XP-inspired interface.'
           },
           {
-            name: 'og:site_name',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            property: 'og:site_name',
+            content: 'Alexis Musaelyan'
           },
           {
-            name: 'og:url',
-            content: 'https://pauljaguin.com/office'
+            property: 'og:url',
+            content: 'https://alexismusaelyan.com/office'
           },
           {
-            name: 'og:image',
-            content: 'https://pauljaguin.com/img/logo-portfolio-black.webp'
+            property: 'og:image',
+            content: 'https://alexismusaelyan.com/img/office-picture.webp'
           },
           {
-            name: 'og:image:alt',
-            content: 'Logo Portfolio Paul Jaguin'
+            property: 'og:image:alt',
+            content: 'Alexis Musaelyan Creative Office Workspace'
           },
           {
-            name: 'og:locale',
-            content: 'fr_FR'
+            property: 'og:image:width',
+            content: '1200'
           },
           {
-            name: 'og:locale:alternate',
+            property: 'og:image:height',
+            content: '630'
+          },
+          {
+            property: 'og:locale',
             content: 'en_US'
+          },
+          {
+            property: 'og:locale:alternate',
+            content: 'ru_RU'
+          },
+          {
+            property: 'og:locale:alternate',
+            content: 'fr_FR'
           }
         ]
       }
     }
-  ]
+  ],
 })
 
 export default router

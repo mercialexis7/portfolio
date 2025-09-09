@@ -2,7 +2,7 @@
 import { ref, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
 
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser'
 import Button from '../Buttons/Button.vue'
 
 const { t } = useI18n()
@@ -163,7 +163,7 @@ watch([userEmail, userMessage, emailSubject], ([newUserEmail, newUserMessage, ne
         <input
           type="text"
           class="w-full h-5 border border-input-blue p-1.5 text-xs outline-none placeholder:text-black"
-          placeholder="jaguinpaul@gmail.com"
+          placeholder="alexismusaelyan@gmail.com"
           readonly="readonly"
         />
       </label>

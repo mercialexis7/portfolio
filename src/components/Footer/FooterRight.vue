@@ -13,7 +13,7 @@ const { locale } = useI18n()
 
 const localeNames = {
   en: 'EN',
-  fr: 'FR'
+  ru: 'RU'
 }
 
 // Initialize refs
@@ -82,7 +82,8 @@ const toggleLanguageModal = () => {
 }
 
 const flagSrc = computed(() => {
-  return `/img/icons/langs/flag-${currentLocale.value}.webp`
+  const extension = currentLocale.value === 'ru' ? 'png' : 'webp'
+  return `/img/icons/langs/flag-${currentLocale.value}.${extension}`
 })
 </script>
 

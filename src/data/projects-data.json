@@ -2,105 +2,103 @@
   "categories": [
     {
       "name": {
-        "en": "Websites",
-        "fr": "Sites web"
+        "en": "Works",
+        "ru": "Работы"
       },
       "projects": [
         {
-          "name": "Logma Production",
-          "icon": "projects/folder-logma-icon.webp",
+          "name": "the joke is god",
+          "icon": "projects/projects-icon-sm.webp",
+          "cover": "book covers/thejokeisgod.jpg",
+          "link": "https://www.amazon.com/joke-god-alexis-musaelyan/dp/B0FND7Y577",
           "title": {
-            "en": "Logma Production - Showcase website",
-            "fr": "Logma Production - Site vitrine"
+            "en": "the joke is god - poetry collection",
+            "ru": "the joke is god - сборник поэзии"
           },
           "date": {
-            "en": "2023 - 2 months",
-            "fr": "2023 - 2 mois"
+            "en": "2025",
+            "ru": "2025"
           },
-          "componentName": "LogmaContent",
+          "componentName": "WorksContent",
           "isFocus": false,
           "isActive": false
         },
         {
-          "name": "Pangaia",
-          "icon": "projects/folder-pangaia-icon.webp",
+          "name": "leave the door open",
+          "icon": "projects/projects-icon-sm.webp",
+          "cover": "book covers/leavethedooropen.jpg",
+          "link": "https://www.amazon.com/leave-door-open-alexis-musaelyan/dp/B0FC6BBB9N/ref=sr_1_1?crid=2D0Q4E3MLD7U3&dib=eyJ2IjoiMSJ9.QV_0B_n14WagiW4388J9XA.GaBD5wCyG09qlVUnUFzeS1iPUyEz8CPp0mtcv1z0Cs0&dib_tag=se&keywords=leave+the+door+alexis+musaelyan&qid=1756401346&sprefix=leave+the+door+alexis+musaelyan%2Caps%2C81&sr=8-1",
           "title": {
-            "en": "Pangaia - Web Application",
-            "fr": "Pangaia - Application web"
+            "en": "leave the door open - novel",
+            "ru": "leave the door open - роман"
           },
           "date": {
-            "en": "2023 - Current",
-            "fr": "2023 - Actuel"
+            "en": "2025",
+            "ru": "2025"
           },
-          "componentName": "PangaiaContent",
+          "componentName": "WorksContent",
           "isFocus": false,
           "isActive": false
         },
         {
-          "name": "Clench",
-          "icon": "projects/folder-clench-icon.webp",
+          "name": "flow",
+          "icon": "projects/projects-icon-sm.webp",
+          "cover": "book covers/flow.jpg",
+          "link": "https://www.amazon.com/flow-alexis-musaelyan/dp/B0F32YG6Z8/ref=sr_1_1?crid=2DKB3OPLSBPEG&dib=eyJ2IjoiMSJ9.THBTAuWbk95Wz3uRwEV3Fagq-ESuo8brA9yRmv-sVX4.Ya59frLpC8ULLZ51_WFTXVElp-9K9tQnNk7byezD1c0&dib_tag=se&keywords=flow+alexis+musaelyan&qid=1757409041&sprefix=flow+alexis+m%2Caps%2C82&sr=8-1",
           "title": {
-            "en": "Clench - Web Application",
-            "fr": "Clench - Application web"
+            "en": "flow - poetry collection",
+            "ru": "flow - сборник поэзии"
           },
           "date": {
-            "en": "2024 - 1 weeks",
-            "fr": "2024 - 1 semaines"
+            "en": "2025",
+            "ru": "2025"
           },
-          "componentName": "ClenchContent",
+          "componentName": "WorksContent",
           "isFocus": false,
           "isActive": false
         },
         {
-          "name": "EMC2 (ScreenUp)",
-          "icon": "projects/folder-emc2-icon.webp",
+          "name": "research",
+          "icon": "windows-header-tools/folder-opening-icon.webp",
           "title": {
-            "en": "L'EMC2 - Wordpress website (ScreenUp)",
-            "fr": "L'EMC2 - Site Wordpress (ScreenUp)"
+            "en": "current research interests",
+            "fr": "Recherche sur les fréquences et le système nerveux"
           },
           "date": {
-            "en": "2024 - 1 month",
-            "fr": "2024 - 1 mois"
+            "en": "2025 - current",
+            "fr": "2025 - Actuel"
           },
-          "componentName": "Emc2Content",
+          "componentName": "WorksContent",
           "isFocus": false,
           "isActive": false
         },
         {
-          "name": "Aidella",
-          "icon": "projects/folder-aidella-icon.webp",
+          "name": "sound",
+          "icon": "music/playmusic-icon-sm.webp",
           "title": {
-            "en": "Les Terres d'Aidella - Blog website",
-            "fr": "Les Terres d'Aidella - Site web / Blog"
+            "en": "sound as healing",
+            "fr": "Le son comme médecine"
           },
           "date": {
-            "en": "2025 - 3 weeks",
-            "fr": "2025 - 3 semaines"
+            "en": "2025 - current",
+            "fr": "2025 - Actuel"
           },
-          "componentName": "AidellaContent",
+          "componentName": "WorksContent",
           "isFocus": false,
           "isActive": false
-        }
-      ]
-    },
-    {
-      "name": {
-        "en": "Servers",
-        "fr": "Serveurs"
-      },
-      "projects": [
+        },
         {
-          "name": "Homeserver",
-          "icon": "projects/homeserver-icon.webp",
+          "name": "threshold",
+          "icon": "windows-header-tools/folder-open-icon.webp",
           "title": {
-            "en": "Application server & NAS",
-            "fr": "Serveur d'application & stockage NAS"
+            "en": "threshold - presence technology",
+            "ru": "предел - технология присутствия"
           },
           "date": {
-            "en": "2023 - Current",
-            "fr": "2023 - Actuel"
+            "en": "2025 - Current",
+            "ru": "2025 - Текущий"
           },
-          "componentName": "HomeserverContent",
+          "componentName": "WorksContent",
           "isFocus": false,
           "isActive": false
         }

@@ -3,11 +3,11 @@
     "id": "myProjects",
     "title": {
       "en": "My Projects",
-      "fr": "Mes projets"
+      "ru": "Мои проекты"
     },
     "subtitle": {
       "en": "See all my projects",
-      "fr": "Voir tous mes projets"
+      "ru": "Посмотреть все мои проекты"
     },
     "imgSrc": "/img/icons/projects/projects-icon-lg.webp",
     "onDesktop": true,
@@ -31,11 +31,11 @@
     "id": "contact",
     "title": {
       "en": "Contact me",
-      "fr": "Me contacter"
+      "ru": "Свяжитесь со мной"
     },
     "subtitle": {
       "en": "Leave me a message",
-      "fr": "Laissez moi un message"
+      "ru": "Оставь мне сообщение"
     },
     "imgSrc": "/img/icons/contact/email-icon-lg.webp",
     "onDesktop": true,
@@ -56,14 +56,14 @@
     "leftMenuType": ""
   },
   {
-    "id": "myCV",
+    "id": "aboutMe",
     "title": {
-      "en": "My CV",
-      "fr": "Mon CV"
+      "en": "About Me",
+      "ru": "Обо мне"
     },
     "subtitle": {
-      "en": "See the curriculum vitae",
-      "fr": "Voir le curriculum vitae"
+      "en": "Learn more about me",
+      "ru": "Узнайте больше обо мне"
     },
     "imgSrc": "/img/icons/cv/cv-icon-lg.webp",
     "onDesktop": true,
@@ -80,14 +80,14 @@
     "initHeight": 500,
     "minWidth": 200,
     "minHeight": 160,
-    "component": "MyCV",
+    "component": "AboutMe",
     "leftMenuType": ""
   },
   {
     "id": "music",
     "title": {
-      "en": "My Musics",
-      "fr": "Mes Musiques"
+      "en": "My Music",
+      "ru": "Моя музыка"
     },
     "imgSrc": "/img/icons/music/playmusic-icon-lg.webp",
     "onDesktop": true,
@@ -111,10 +111,10 @@
     "id": "documents",
     "title": {
       "en": "My Documents",
-      "fr": "Mes documents"
+      "ru": "Мои документы"
     },
     "imgSrc": "/img/icons/documents/folder-docs-icon-sm.webp",
-    "onDesktop": false,
+    "onDesktop": true,
     "resizable": true,
     "windowsHeaderLogo": false,
     "isSearchVisible": true,
@@ -135,10 +135,10 @@
     "id": "pictures",
     "title": {
       "en": "My Pictures",
-      "fr": "Mes Images"
+      "ru": "Мои изображения"
     },
     "imgSrc": "/img/icons/pictures/folder-images-icon-sm.webp",
-    "onDesktop": false,
+    "onDesktop": true,
     "resizable": true,
     "windowsHeaderLogo": true,
     "isSearchVisible": true,
@@ -159,7 +159,7 @@
     "id": "calendar",
     "title": {
       "en": "Calendar",
-      "fr": "Calendrier"
+      "ru": "Календарь"
     },
     "imgSrc": "/img/icons/calendar/calendar-icon-lg.webp",
     "onDesktop": false,
@@ -183,7 +183,7 @@
     "id": "minesweeper",
     "title": {
       "en": "Minesweeper",
-      "fr": "Démineur"
+      "ru": "Сапер"
     },
     "imgSrc": "/img/icons/minesweeper/minesweeper-icon-lg.webp",
     "onDesktop": true,
@@ -207,7 +207,7 @@
     "id": "notepad",
     "title": {
       "en": "Notepad",
-      "fr": "Bloc-notes"
+      "ru": "Блокнот"
     },
     "imgSrc": "/img/icons/notepad/notepad-icon-lg.webp",
     "onDesktop": true,
@@ -228,42 +228,14 @@
     "leftMenuType": ""
   },
   {
-    "id": "doom",
-    "title": {
-      "en": "Doom",
-      "fr": "Doom"
-    },
-    "subtitle": {
-      "en": "Play doom thanks to js-dos",
-      "fr": "Jouer à doom grâce à js-dos"
-    },
-    "imgSrc": "/img/icons/doom/doom-icon-lg.webp",
-    "onDesktop": true,
-    "resizable": true,
-    "windowsHeaderLogo": false,
-    "isSearchVisible": true,
-    "headerPosition": "left",
-    "headerToolsId": "",
-    "menuHeaderItemsId": "none",
-    "iconSrc": "/img/icons/doom/doom-icon-sm.webp",
-    "initPositionX": 190,
-    "initPositionY": 310,
-    "initWidth": 660,
-    "initHeight": 500,
-    "minWidth": 200,
-    "minHeight": 160,
-    "component": "Doom",
-    "leftMenuType": ""
-  },
-  {
     "id": "terminal",
     "title": {
       "en": "Terminal",
-      "fr": "Terminal"
+      "ru": "Терминал"
     },
     "subtitle": {
       "en": "Run commands using the terminal",
-      "fr": "Lancer des commandes avec le terminal"
+      "ru": "Запуск команд с помощью терминала"
     },
     "imgSrc": "/img/icons/cmd-icon-lg.webp",
     "onDesktop": false,
