@@ -154,7 +154,7 @@ window.addEventListener('click', (e) => {
           >
             <img :src="'/img/icons/' + project.icon" alt="project" class="w-20 h-12 md:w-20 md:h-20 flex-shrink-0 object-contain" :style="{ opacity: project.isFocus ? 0.7 : 1 }" />
             <p
-              class="text-xs font-tahoma font-medium truncate leading-tight flex-1 min-w-0"
+              class="text-xs font-tahoma font-medium leading-tight flex-1 min-w-0"
               :style="{
                 color: project.isFocus ? '#1e40af' : 'black',
                 lineHeight: '1.2'

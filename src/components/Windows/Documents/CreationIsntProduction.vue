@@ -19,12 +19,31 @@
       <p class="blog-paragraph">{{ $t('windows.documents.creationIsntProduction.contextEighthParagraph') }}</p>
       <p class="blog-paragraph">{{ $t('windows.documents.creationIsntProduction.contextFinalParagraph') }}</p>
     </div>
+
+    <ShareButtons
+      :title="$t('windows.documents.creationIsntProduction.title')"
+      :url="currentUrl"
+    />
+
+    <NewsletterSignup />
   </div>
 </template>
 
 <script>
+import ShareButtons from '@/components/ShareButtons.vue'
+import NewsletterSignup from '@/components/NewsletterSignup.vue'
+
 export default {
-  name: 'CreationIsntProduction'
+  name: 'CreationIsntProduction',
+  components: {
+    ShareButtons,
+    NewsletterSignup
+  },
+  computed: {
+    currentUrl() {
+      return window.location.href
+    }
+  }
 }
 </script>
 

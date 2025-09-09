@@ -23,12 +23,31 @@
       <p class="blog-paragraph">{{ $t('windows.documents.scienceWillCatchUp.contextTwelfthParagraph') }}</p>
       <p class="blog-paragraph">{{ $t('windows.documents.scienceWillCatchUp.contextFinalParagraph') }}</p>
     </div>
+
+    <ShareButtons
+      :title="$t('windows.documents.scienceWillCatchUp.title')"
+      :url="currentUrl"
+    />
+
+    <NewsletterSignup />
   </div>
 </template>
 
 <script>
+import ShareButtons from '@/components/ShareButtons.vue'
+import NewsletterSignup from '@/components/NewsletterSignup.vue'
+
 export default {
-  name: 'ScienceWillCatchUp'
+  name: 'ScienceWillCatchUp',
+  components: {
+    ShareButtons,
+    NewsletterSignup
+  },
+  computed: {
+    currentUrl() {
+      return window.location.href
+    }
+  }
 }
 </script>
 

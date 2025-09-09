@@ -26,17 +26,33 @@
       </div>
     </div>
 
+    <ShareButtons
+      :title="$t('windows.documents.about.title')"
+      :url="currentUrl"
+    />
+
+    <NewsletterSignup />
+
     <BackToTop />
   </div>
 </template>
 
 <script>
 import BackToTop from '@/components/BackToTop.vue'
+import ShareButtons from '@/components/ShareButtons.vue'
+import NewsletterSignup from '@/components/NewsletterSignup.vue'
 
 export default {
   name: 'YouFoundThis',
   components: {
-    BackToTop
+    BackToTop,
+    ShareButtons,
+    NewsletterSignup
+  },
+  computed: {
+    currentUrl() {
+      return window.location.href
+    }
   }
 }
 </script>

@@ -38,7 +38,11 @@
     "language": "Language",
     "russian": "Russian",
     "english": "English",
-    "backToTop": "Back to Top"
+    "backToTop": "Back to Top",
+    "share": "share",
+    "shareArticle": "share note",
+    "copyLink": "copy link",
+    "copied": "copied!"
   },
   "message": {
     "welcome": "Welcome to my world.",
@@ -282,5 +286,17 @@
     "logoLoading": "Logo portfolio XP black loading",
     "logoLogin": "Logo portfolio XP white login",
     "currLang": "Current language"
+  },
+  "newsletter": {
+    "title": "newsletter",
+    "description": "subscribe to hear from me more often. you won't regret it.",
+    "emailLabel": "email address",
+    "emailPlaceholder": "enter your email address (if you'd like)",
+    "agreement": "i agree to receive occasional updates from lex",
+    "subscribe": "subscribe",
+    "submitting": "subscribing...",
+    "successMessage": "thanks for subscribing! :) mail coming your way soon",
+    "errorMessage": "something went wrong :/ please try again later.",
+    "invalidEmail": "please enter a valid email address"
   }
 }

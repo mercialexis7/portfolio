@@ -25,12 +25,31 @@
       <p class="blog-paragraph">{{ $t('windows.documents.fieldCoherence.contextExtraSixthParagraph') }}</p>
       <p class="blog-paragraph">{{ $t('windows.documents.fieldCoherence.contextExtraFinalParagraph') }}</p>
     </div>
+
+    <ShareButtons
+      :title="$t('windows.documents.fieldCoherence.title')"
+      :url="currentUrl"
+    />
+
+    <NewsletterSignup />
   </div>
 </template>
 
 <script>
+import ShareButtons from '@/components/ShareButtons.vue'
+import NewsletterSignup from '@/components/NewsletterSignup.vue'
+
 export default {
-  name: 'FieldCoherence'
+  name: 'FieldCoherence',
+  components: {
+    ShareButtons,
+    NewsletterSignup
+  },
+  computed: {
+    currentUrl() {
+      return window.location.href
+    }
+  }
 }
 </script>
 
