@@ -10,7 +10,7 @@ const router = createRouter({
       name: 'home',
       component: Loader,
       meta: {
-        title: 'alexis musaelyan - creative world',
+        title: 'alexis musaelyan\'s creative field',
         metaTags: [
           {
             rel: 'canonical',
@@ -18,11 +18,11 @@ const router = createRouter({
           },
           {
             name: 'title',
-            content: 'alexis musaelyan - creative world'
+            content: 'alexis musaelyan\'s creative field'
           },
           {
             name: 'description',
-            content: 'discover the creative world of alexis musaelyan - poet, author, and digital creator. explore published poetry collections, creative writing, and immersive digital experiences.'
+            content: 'discover the creative field of alexis musaelyan - poet, author, and digital creator. explore published poetry collections, creative writing, and immersive digital experiences.'
           },
           {
             name: 'keywords',
