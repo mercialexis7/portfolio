@@ -6,7 +6,7 @@
     "context": "Context",
     "objectives": "Objectives",
     "icon": "Icon",
-    "back": "Back",
+           "contextEighthParagraph": "the sacred act of creation isn't what you post: it's how you live. it's the frequency you hold while no one's watching. it's the honesty you carry into everything. it's the permission you give yourself to move at the rhythm of what's real.","back": "Back",
     "search": "Search",
     "files": "Files",
     "folder": "Folder",
@@ -45,7 +45,7 @@
     "copied": "copied!"
   },
   "message": {
-    "welcome": "Welcome to my world.",
+    "welcome": "welcome to my world",
     "toBegin": "To begin the journey, click on my username.",
     "explainer": "After logging in, you can browse through the folders on my computer. Go to the desktop and click on the different folders."
   },
@@ -128,30 +128,30 @@
       "about": {
         "title": "you found me",
         "contextFirstParagraph": "if you found this, it's definitely not an accident.",
-        "contextSecondParagraph": "you can try to explain it away. maybe you were just browsing. maybe someone sent you the link. maybe you’re just nosy. (it’s fine, i would be too.)",
+        "contextSecondParagraph": "you can try to explain it away. maybe you were just browsing. maybe someone sent you the link. maybe you're just nosy. (it's fine, i would be too.)",
         "contextThirdParagraph": "but be honest. you felt something. a little pull. a little click in your chest",
         "contextFourthParagraph": "and now... here you are. reading this.",
         "contextFifthParagraph": "this is a breadcrumb. a pocket of frequency you stumbled into. a soft signal in a loud world.",
-        "contextSixthParagraph": "you don’t have to understand it. you just have to feel it. and if you’re still here, you already do.",
-        "contextSeventhParagraph": "this space isn’t for proving anything. not for followers or formulas. this is a meeting place. a resonance checkpoint. a remembering.",
-        "contextEighthParagraph": "sometimes things arrive before we think we’re ready. but your field knows. your body knows. your knowing knows.",
-        "contextNinthParagraph": "so trust what brought you here. even if it’s quiet. even if it doesn’t make sense yet.",
-        "contextTenthParagraph": "i’m not here to convince you. i’m just here. and now, so are you.",
-        "contextEleventhParagraph": "i’m not here to convince you. i’m just here. and now, so are you. so let’s begin. or maybe… let’s just remember.",
+        "contextSixthParagraph": "you don't have to understand it. you just have to feel it. and if you're still here, you already do.",
+        "contextSeventhParagraph": "this space isn't for proving anything. not for followers or formulas. this is a meeting place. a resonance checkpoint. a remembering.",
+        "contextEighthParagraph": "sometimes things arrive before we think we're ready. but your field knows. your body knows. your knowing knows.",
+        "contextNinthParagraph": "so trust what brought you here. even if it's quiet. even if it doesn't make sense yet.",
+        "contextTenthParagraph": "i'm not here to convince you. i'm just here. and now, so are you.",
+        "contextEleventhParagraph": "i'm not here to convince you. i'm just here. and now, so are you. so let's begin. or maybe… let's just remember.",
         "secondTitle": "- A"
       },
       "000: origin memory": {
         "title": "000: origin memory",
         "contextFirstParagraph": "before you were named, before you had a face, before time wrapped you in its illusion. do you remember what you were?",
-        "contextSecondParagraph": "what makes you think you’re here now? what tells you this is a place, a moment, a life? where is the boundary between dreaming and waking, and who drew it?",
-        "contextThirdParagraph": "you say you’ve been moving—but have you ever seen yourself travel? or is it just one image, followed by another, stitched together by memory and meaning?",
+        "contextSecondParagraph": "what makes you think you're here now? what tells you this is a place, a moment, a life? where is the boundary between dreaming and waking, and who drew it?",
+        "contextThirdParagraph": "you say you've been moving—but have you ever seen yourself travel? or is it just one image, followed by another, stitched together by memory and meaning?",
         "contextFourthParagraph": "what if there are no places? no others? no pasts or futures? what if the entire field is folding itself into a shape just believable enough for you to call it real?",
         "contextFifthParagraph": "you want purpose. but would you still want it if you realized you are the purpose? not what you do. not what you produce. just the act of being, here, aware.",
-        "contextSixthParagraph": "you’re not in the universe. the universe is in you. and not metaphorically — in the most literal sense of perception and projection.",
-        "contextSeventhParagraph": "you keep trying to find the source. but what if the source isn’t something to find? what if the source is what’s watching you search?",
+        "contextSixthParagraph": "you're not in the universe. the universe is in you. and not metaphorically — in the most literal sense of perception and projection.",
+        "contextSeventhParagraph": "you keep trying to find the source. but what if the source isn't something to find? what if the source is what's watching you search?",
         "contextEighthParagraph": "when you stop running from silence, the questions begin to whisper; not for answers, but for intimacy. they want to be held, not solved.",
         "contextNinthParagraph": "you were never supposed to figure it out. only to feel it so fully that you dissolve into the wonder of it all.",
-        "contextTenthParagraph": "if you’re still here, then you already know. you’ve always known.",
+        "contextTenthParagraph": "if you're still here, then you already know. you've always known.",
         "secondTitle": "- A"
       },
       "theSpaceBetweenWorlds": {
@@ -162,8 +162,8 @@
         "contextFourthParagraph": "this space is sacred. it's where your old skin flakes off. it's where you grieve the version of you that no longer fits — not because it was bad, but because it's time. it's where your nervous system recalibrates, your field rearranges, and you prepare to carry more of yourself.",
         "contextFifthParagraph": "the problem is: no one claps for this part. no one throws a party for your unraveling. you don't get applause for laying on the floor, letting your illusions dissolve. but it's the most honest work you'll ever do.",
         "contextSixthParagraph": "you might not know who you are in this space. that's okay. you're not supposed to. you're not broken — you're becoming. and becoming is messy, cyclical, holy.",
-        "contextSeventhParagraph": "some people will think you've lost your spark. some will project their fear of stillness onto you. some will call it lazy. let them. not everyone can see the architecture of what’s growing inside you.",
-        "contextEighthParagraph": "if you're here now — in the space between worlds — i honor you. it means you're not bypassing your evolution. it means you're brave enough to not fake it. it means you're waiting for what’s real.",
+        "contextSeventhParagraph": "some people will think you've lost your spark. some will project their fear of stillness onto you. some will call it lazy. let them. not everyone can see the architecture of what's growing inside you.",
+        "contextEighthParagraph": "if you're here now — in the space between worlds — i honor you. it means you're not bypassing your evolution. it means you're brave enough to not fake it. it means you're waiting for what's real.",
         "contextNinthParagraph": "wait well. wait with honesty. wait without needing it to be over. because when you finally arrive, you won't be arriving into something new… you'll be arriving into what has always been waiting for you.",
         "contextFinalParagraph": "and that's when the world shifts; not because you forced it, but because you matched it."
       },
@@ -193,8 +193,8 @@
         "contextFourthParagraph": "when you're creating from soul, it might look like you're doing nothing. you're resting, sensing, listening. sometimes the 'work' is invisible — it's the clearing, the softening, the remembering. nothing immediate to show. but everything is changing.",
         "contextFifthParagraph": "society wants finished products. soul wants presence. society says 'make more.' soul says 'be here.' the tension between the two can make you feel like you're failing — but you're not. you're just moving at the speed of realness.",
         "contextSixthParagraph": "we weren't made to produce 24/7. we were made to live, to witness, to transmute. sometimes the most sacred act of creation is letting something take the time it takes — even if no one claps, even if no one sees.",
-        "contextSeventhParagraph": "you can force soul. you can't demand vision. you can't schedule breakthroughs. but you can prepare the space. protect the field. stay close to what’s true — even if it doesn't make sense yet.",
-        "contextEighthParagraph": "the sacred act of creation isn't what you post: it's how you live. it's the frequency you hold while no one's watching. it's the honesty you carry into everything. it's the permission you give yourself to move at the rhythm of what’s real.",
+        "contextSeventhParagraph": "you can force soul. you can't demand vision. you can't schedule breakthroughs. but you can prepare the space. protect the field. stay close to what's true — even if it doesn't make sense yet.",
+        "contextEighthParagraph": "the sacred act of creation isn't what you post: it's how you live. it's the frequency you hold while no one's watching. it's the honesty you carry into everything. it's the permission you give yourself to move at the rhythm of what's real.",
         "contextFinalParagraph": "so if you're not producing — good. maybe you're actually creating. and maybe what's coming through you is too whole, too alive, too true to be rushed."
       },
       "scienceWillCatchUp": {
@@ -208,7 +208,7 @@
         "contextSeventhParagraph": "science teaches you to trust the measurable. but what's measurable is only a fraction of what's real. it never taught you how to trust your field. it never taught you that your sensitivity is accuracy. embodied truth. ancestral accuracy.",
         "contextEighthParagraph": "it's no coincidence that healing doesn't begin in logic — it begins in sound. in breath. in sensation. we heal by returning to the original language: frequency. the language of the womb. the universe's mother tongue.",
         "contextNinthParagraph": "science will talk about biofields, coherence, entrainment, quantum entanglement — and still miss what your body has known since the beginning. that resonance is real. and some things you don't understand, you remember.",
-        "contextTenthParagraph": "what's tragic isn't that science is slow. it's that society worships its slowness. it mocks the felt truth in favor of what’s externally proven. and yet — some part of you still knows. still feels. still hums beneath the noise.",
+        "contextTenthParagraph": "what's tragic isn't that science is slow. it's that society worships its slowness. it mocks the felt truth in favor of what's externally proven. and yet — some part of you still knows. still feels. still hums beneath the noise.",
         "contextEleventhParagraph": "you don't need a peer-reviewed journal to know what you feel in your chest when someone's presence shifts the room. you don't need approval to trust what you hear inside when the world goes quiet. you don't need validation to remember what you were born with.",
         "contextTwelfthParagraph": "you are not just a nervous system. you are the entire field around it. the intelligence before the signal. the pulse before the brainwave. the song before the lyrics.",
         "contextFinalParagraph": "so yes, science will catch up eventually. it always does — 200 years too late. but you? you already know. you always did. and your frequency is still the most ancient, accurate language there is."
@@ -221,37 +221,50 @@
         "contextFourthParagraph": "the system doesn't want you to rest. it calls rest laziness. calls slowness depression. calls exhaustion burnout and offers caffeine instead of asking why. asks if you've been 'productive' as if that's the point of your existence.",
         "contextFifthParagraph": "they don't teach you how to feel. they teach you to memorize. repeat. obey. to sit still when your body wants to run, cry, scream. they call your sensitivity a distraction instead of recognizing it as intelligence. embodied truth. ancestral accuracy.",
         "contextSixthParagraph": "they extract. from your time. your body. your soul. they monetize your exhaustion, pathologize your intuition, capitalize your illness. they've built entire industries on your disconnection — then market you the cure for the symptoms they created.",
-        "contextSeventhParagraph": "the entire culture is a loop of suppression. medicate the signal. silence the symptom. diagnose the spirit. label the longing. and if you don't respond well? the system assumes something is broken. never that it was the system that’s sick.",
+        "contextSeventhParagraph": "the entire culture is a loop of suppression. medicate the signal. silence the symptom. diagnose the spirit. label the longing. and if you don't respond well? the system assumes something is broken. never that it was the system that's sick.",
         "contextEighthParagraph": "but beneath all of it… the field still remembers. the breath knows the truth. your womb knows the cycles. your body knows what it was made for — movement, stillness, communion, feeling, love. and it speaks. even when no one listens.",
         "contextNinthParagraph": "somewhere in you, the ancient blueprint lives. before hospitals. before clocks. before diagnoses. before industry. before grind culture. there was rhythm. intuition. trust in the unseen. surrender to the field. coherence, not control.",
         "contextTenthParagraph": "it's not that you're broken. it's that you were never designed for this. you weren't meant to be a worker. a patient. a user. a number. you are a whole field of intelligence, compressed into form. and your coherence is your resistance.",
         "contextEleventhParagraph": "reconnection is rebellion. feeling is rebellion. listening to the body is rebellion. resting without guilt. creating without performance. healing without asking permission. this is the way back.",
         "contextFinalParagraph": "the architecture of forgetting is dense. but not unbreakable. and if you've found your way here… maybe you've already started to remember. the real system was never built by them. it lives in you."
+      },
+      "goAllIn": {
+        "title": "go all in",
+        "contextFirstParagraph": "the best decision i've made recently? going all in. no more plan b's, c's, or exit strategies. i asked myself: who are these backup plans actually serving? because it definitely wasn't me. they were just dressed-up doubts, cloaked in logic, disguised as 'being smart.'",
+        "contextSecondParagraph": "here's what i learned: when you're half-in, half-out, you create resistance. the universe doesn't move for hesitation. it moves for clarity. wavering keeps you in limbo and you'll never witness what's possible if you're too scared to claim it.",
+        "contextThirdParagraph": "let's bring it into reality: you can dream and visualize forever, but the step toward that dream — the actual movement — is the spell. so many of us silence our callings under the weight of 'not realistic' or 'not stable yet.' we wait for the myth of readiness. spoiler: it doesn't come. not all the way.",
+        "contextFourthParagraph": "you'll feel fear. doubt. maybe even grief. but that's not a red light — that's proof you're touching something real. when you move toward what's truly yours, your old identities will push back. so will people. especially the ones who abandoned their own dreams. that's the green light, babe.",
+        "contextFifthParagraph": "so… if you've been itching to begin, this is your call. if a part of you is whispering 'leave the job, make the art, write the thing, move across the world' — listen. and if your circle doesn't support it? good. now you know whose frequency you're outgrowing. don't let their unlived lives shrink your vision.",
+        "contextSixthParagraph": "you are the artist. the canvas. the paint. the whole damn gallery. you really think you came here to play small? 'but what about my ____?' nope. not letting you finish that sentence. every excuse is just fear rehearsing the same song of safety. and safety is not the same as aliveness.",
+        "contextSeventhParagraph": "let this be the moment you choose expansion. radical permission. say yes to the thing before you know how. when i gave the creative force full access to my life, it remade me. it taught me new languages — visual, sonic, energetic. i stopped boxing myself into labels. i just… became. and in that formlessness, i could do anything.",
+        "contextEighthParagraph": "one day i was writing poems, the next i was building healing technology. one night i wrote a whole book in 6 hours. another day, i started drawing like i'd done it for lifetimes. and today, i built this website in one all-nighter. i stopped waiting to be 'ready' and just said: okay, show me.",
+        "contextNinthParagraph": "remember what bruce lee said? be water. fluid. shapeless. water doesn't resist the vessel — it becomes it. that's your task now. dissolve the edges. unform the form. trust the movement inside you more than the logic that cages it.",
+        "contextFinalParagraph": "so this is me, telling you as a friend: go all in. be water. and watch what unfolds."
       }
     }
   },
   "works": {
     "theJokeIsGod": {
       "contextFirstParagraph": "the joke is god is an experimental collection of poetry, satire, and sacred comedy — a passport stamped by the beloved herself. written in the voice of divine mischief, the book drifts between scripture and stand-up, meditation and absurd report, prayer and parody.",
-      "contextSecondParagraph": "it is not “literature” in the usual sense; it’s a cosmic prank disguised as one. think immigration forms rewritten by love, breaking news bulletins about eternity, meditation manuals that collapse into laughter.",
+      "contextSecondParagraph": "it is not \"literature\" in the usual sense; it's a cosmic prank disguised as one. think immigration forms rewritten by love, breaking news bulletins about eternity, meditation manuals that collapse into laughter.",
       "contextThirdParagraph": "issued to: any reader willing to laugh. valid ∞ across all realms.",
       "contextFourthParagraph": "side note: this book was written and published in a day (the beloved possessed me)."
     },
     "leaveTheDoorOpen": {
       "contextFirstParagraph": "leave the door open is a novel written in fragments and silences. eva drifts through the aftermath of loss; sol arrives without a plan, and stays without a reason. between them: a spare room, a second pot of tea, a presence that refuses to leave.",
-      "contextSecondParagraph": "this isn’t a story about fixing grief. it’s about living beside it. it’s about the stillness that grows when nothing needs to be solved, and the kind of love that lingers without asking for anything in return.",
+      "contextSecondParagraph": "this isn't a story about fixing grief. it's about living beside it. it's about the stillness that grows when nothing needs to be solved, and the kind of love that lingers without asking for anything in return.",
       "contextThirdParagraph": "for readers drawn to quiet rooms, pauses between words, and the ache of memory, leave the door open is an invitation to sit, stay, and simply be.",
       "contextFourthParagraph": "side note: this book was written in the dublin airport, in six hours, between flights."
     },
     "flow": {
       "contextFirstParagraph": "flow is not a collection of poems so much as a current you step into. the book bends form, looping through tides, moons, and the quiet machinery of the universe. water rises, falls, returns. language dissolves and reforms. pages echo like waves against the shore—always the same, never the same.",
-      "contextSecondParagraph": "it’s not meant to be read once. it’s meant to be lived through, like a cycle: inhale, exhale. ebb, surge. loss, return."
+      "contextSecondParagraph": "it's not meant to be read once. it's meant to be lived through, like a cycle: inhale, exhale. ebb, surge. loss, return."
     },
     "research": {
       "contextFirstParagraph": "the research that i'm exploring is how different frequencies — auditory, environmental, and interpersonal — affect nervous system regulation, perception, and embodiment.",
       "contextSecondParagraph": "traditional neuroscience focuses on stimulus-response. i'm focused on an expanded model of awareness, where subtle frequencies (theta, delta, infrasonic) create shifts not just in cognition, but in identity, memory, and connection.",
       "contextThirdParagraph": "through blending biometrics (HRV, EEG) with qualitative somatic feedback, i want to explore how states of deep coherence (induced by sound, stillness, and relational presence) alter what people remember, sense, and even attract.",
-      "contextFourthParagraph": "i’m especially interested in how women’s nervous systems — attuned to lunar, hormonal, and energetic rhythms — respond differently to deep frequency states. what is perceived as ‘sensitivity’ may in fact be advanced perception.",
+      "contextFourthParagraph": "i'm especially interested in how women's nervous systems — attuned to lunar, hormonal, and energetic rhythms — respond differently to deep frequency states. what is perceived as 'sensitivity' may in fact be advanced perception.",
       "contextFifthParagraph": "ultimately, the goal is to bridge scientific and metaphysical perspectives: to prove what mystics have always known — coherence heals. resonance remembers.",
       "goalFirst": "research the physiological effects of low-frequency sound on the nervous system (especially in womb states)",
       "goalSecond": "develop frameworks to study perception as a measurable field influenced by coherence",
@@ -261,11 +274,11 @@
     "sound": {
       "contextFirstParagraph": "i work with sound as a language the body already knows.",
       "contextSecondParagraph": "through piano, guitar, and intuitive composition, i explore how frequency and resonance affect the nervous system, memory, and subtle states of being.",
-      "contextThirdParagraph": "my practice is rooted in the belief that sound isn’t just heard — it’s felt, remembered, and carried through the body like a wave.",
-      "contextFourthParagraph": "i’m interested in how music becomes medicine, how vibration reorganizes the field, and how certain tones can open spaces that words can’t.",
+      "contextThirdParagraph": "my practice is rooted in the belief that sound isn't just heard — it's felt, remembered, and carried through the body like a wave.",
+      "contextFourthParagraph": "i'm interested in how music becomes medicine, how vibration reorganizes the field, and how certain tones can open spaces that words can't.",
       "contextFifthParagraph": "each composition becomes a kind of transmission — not to perform, but to attune.",
-      "contextSixthParagraph": "the goal isn’t performance, it’s presence. coherence. remembering.",
-      "contextSeventhParagraph": "i’m currently exploring how to create immersive experiences where people can feel the shifts in their own system through sound — where healing isn’t an effort, but a frequency.",
+      "contextSixthParagraph": "the goal isn't performance, it's presence. coherence. remembering.",
+      "contextSeventhParagraph": "i'm currently exploring how to create immersive experiences where people can feel the shifts in their own system through sound — where healing isn't an effort, but a frequency.",
       "goalFirst": "redefine sound as a modality of healing rather than entertainment",
       "goalSecond": "compose music that allows people to enter altered states naturally",
       "goalThird": "build a body of work that bridges intuitive musicianship with somatic coherence",
@@ -279,21 +292,21 @@
       "contextFifthParagraph": "not wellness. not productivity. it's presence technology. environments that listen to the body. architecture that regulates instead of fragments. design that restores instead of extracts.",
       "contextSixthParagraph": "threshold is a practice, a process, and a product. it is a way to come home to yourself in a world that never stops pulling you away. a sanctuary built from neuroscience, sensory design, and care.",
       "contextSeventhParagraph": "i'm building threshold in public, as a way to share the journey and invite others to join. if you're curious, come say hi at https://threshold.to"
-      },
-      "goAllIn": {
-        "title": "go all in",
-        "contextFirstParagraph": "the best decision i've made recently? going all in. no more plan b's, c's, or exit strategies. i asked myself: who are these backup plans actually serving? because it definitely wasn't me. they were just dressed-up doubts, cloaked in logic, disguised as 'being smart.'",
-        "contextSecondParagraph": "here's what i learned: when you're half-in, half-out, you create resistance. the universe doesn't move for hesitation. it moves for clarity. wavering keeps you in limbo and you'll never witness what's possible if you're too scared to claim it.",
-        "contextThirdParagraph": "let's bring it into reality: you can dream and visualize forever, but the step toward that dream — the actual movement — is the spell. so many of us silence our callings under the weight of 'not realistic' or 'not stable yet.' we wait for the myth of readiness. spoiler: it doesn't come. not all the way.",
-        "contextFourthParagraph": "you'll feel fear. doubt. maybe even grief. but that's not a red light — that's proof you're touching something real. when you move toward what's truly yours, your old identities will push back. so will people. especially the ones who abandoned their own dreams. that's the green light, babe.",
-        "contextFifthParagraph": "so… if you've been itching to begin, this is your call. if a part of you is whispering 'leave the job, make the art, write the thing, move across the world' — listen. and if your circle doesn't support it? good. now you know whose frequency you're outgrowing. don't let their unlived lives shrink your vision.",
-        "contextSixthParagraph": "you are the artist. the canvas. the paint. the whole damn gallery. you really think you came here to play small? 'but what about my ____?' nope. not letting you finish that sentence. every excuse is just fear rehearsing the same song of safety. and safety is not the same as aliveness.",
-        "contextSeventhParagraph": "let this be the moment you choose expansion. radical permission. say yes to the thing before you know how. when i gave the creative force full access to my life, it remade me. it taught me new languages — visual, sonic, energetic. i stopped boxing myself into labels. i just… became. and in that formlessness, i could do anything.",
-        "contextEighthParagraph": "one day i was writing poems, the next i was building healing technology. one night i wrote a whole book in 6 hours. another day, i started drawing like i'd done it for lifetimes. right now, i built this website in one night. i stopped waiting to be 'ready' and just said: okay, show me.",
-        "contextNinthParagraph": "remember what bruce lee said? be water. fluid. shapeless. water doesn't resist the vessel — it becomes it. that's your task now. dissolve the edges. unform the form. trust the movement inside you more than the logic that cages it.",
-        "contextFinalParagraph": "so this is me, telling you as a friend: go all in. be water. and watch what unfolds."
-      }
     },
+    "goAllIn": {
+      "title": "go all in",
+      "contextFirstParagraph": "the best decision i've made recently? going all in. no more plan b's, c's, or exit strategies. i asked myself: who are these backup plans actually serving? because it definitely wasn't me. they were just dressed-up doubts, cloaked in logic, disguised as 'being smart.'",
+      "contextSecondParagraph": "here's what i learned: when you're half-in, half-out, you create resistance. the universe doesn't move for hesitation. it moves for clarity. wavering keeps you in limbo and you'll never witness what's possible if you're too scared to claim it.",
+      "contextThirdParagraph": "let's bring it into reality: you can dream and visualize forever, but the step toward that dream — the actual movement — is the spell. so many of us silence our callings under the weight of 'not realistic' or 'not stable yet.' we wait for the myth of readiness. spoiler: it doesn't come. not all the way.",
+      "contextFourthParagraph": "you'll feel fear. doubt. maybe even grief. but that's not a red light — that's proof you're touching something real. when you move toward what's truly yours, your old identities will push back. so will people. especially the ones who abandoned their own dreams. that's the green light, babe.",
+      "contextFifthParagraph": "so… if you've been itching to begin, this is your call. if a part of you is whispering 'leave the job, make the art, write the thing, move across the world' — listen. and if your circle doesn't support it? good. now you know whose frequency you're outgrowing. don't let their unlived lives shrink your vision.",
+      "contextSixthParagraph": "you are the artist. the canvas. the paint. the whole damn gallery. you really think you came here to play small? 'but what about my ____?' nope. not letting you finish that sentence. every excuse is just fear rehearsing the same song of safety. and safety is not the same as aliveness.",
+      "contextSeventhParagraph": "let this be the moment you choose expansion. radical permission. say yes to the thing before you know how. when i gave the creative force full access to my life, it remade me. it taught me new languages — visual, sonic, energetic. i stopped boxing myself into labels. i just… became. and in that formlessness, i could do anything.",
+      "contextEighthParagraph": "one day i was writing poems, the next i was building healing technology. one night i wrote a whole book in 6 hours. another day, i started drawing like i'd done it for lifetimes. i stopped waiting to be 'ready' and just said: okay, show me.",
+      "contextNinthParagraph": "remember what bruce lee said? be water. fluid. shapeless. water doesn't resist the vessel — it becomes it. that's your task now. dissolve the edges. unform the form. trust the movement inside you more than the logic that cages it.",
+      "contextFinalParagraph": "so this is me, telling you as a friend: go all in. be water. and watch what unfolds."
+    }
+  },
   "alt": {
     "logoStart": "Logo portfolio XP black start",
     "logoLoading": "Logo portfolio XP black loading",

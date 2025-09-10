@@ -1,7 +1,7 @@
 <template>
   <div class="blog-post">
     <div class="blog-header">
-      <h1 class="blog-title">{{ $t('windows.documents.goAllIn.title') }}</h1>
+      <h1 class="blog-title">{{ $t('works.goAllIn.title') }}</h1>
       <div class="blog-meta">
         <span class="blog-date">September 9, 2025</span>
         <span class="blog-author">by A</span>
@@ -9,20 +9,20 @@
     </div>
 
     <div class="blog-content">
-      <p class="blog-paragraph">{{ $t('windows.documents.goAllIn.contextFirstParagraph') }}</p>
-      <p class="blog-paragraph">{{ $t('windows.documents.goAllIn.contextSecondParagraph') }}</p>
-      <p class="blog-paragraph">{{ $t('windows.documents.goAllIn.contextThirdParagraph') }}</p>
-      <p class="blog-paragraph">{{ $t('windows.documents.goAllIn.contextFourthParagraph') }}</p>
-      <p class="blog-paragraph">{{ $t('windows.documents.goAllIn.contextFifthParagraph') }}</p>
-      <p class="blog-paragraph">{{ $t('windows.documents.goAllIn.contextSixthParagraph') }}</p>
-      <p class="blog-paragraph">{{ $t('windows.documents.goAllIn.contextSeventhParagraph') }}</p>
-      <p class="blog-paragraph">{{ $t('windows.documents.goAllIn.contextEighthParagraph') }}</p>
-      <p class="blog-paragraph">{{ $t('windows.documents.goAllIn.contextNinthParagraph') }}</p>
-      <p class="blog-paragraph">{{ $t('windows.documents.goAllIn.contextFinalParagraph') }}</p>
+      <p class="blog-paragraph">{{ $t('works.goAllIn.contextFirstParagraph') }}</p>
+      <p class="blog-paragraph">{{ $t('works.goAllIn.contextSecondParagraph') }}</p>
+      <p class="blog-paragraph">{{ $t('works.goAllIn.contextThirdParagraph') }}</p>
+      <p class="blog-paragraph">{{ $t('works.goAllIn.contextFourthParagraph') }}</p>
+      <p class="blog-paragraph">{{ $t('works.goAllIn.contextFifthParagraph') }}</p>
+      <p class="blog-paragraph">{{ $t('works.goAllIn.contextSixthParagraph') }}</p>
+      <p class="blog-paragraph">{{ $t('works.goAllIn.contextSeventhParagraph') }}</p>
+      <p class="blog-paragraph">{{ $t('works.goAllIn.contextEighthParagraph') }}</p>
+      <p class="blog-paragraph">{{ $t('works.goAllIn.contextNinthParagraph') }}</p>
+      <p class="blog-paragraph">{{ $t('works.goAllIn.contextFinalParagraph') }}</p>
     </div>
 
     <ShareButtons
-      :title="$t('windows.documents.goAllIn.title')"
+      :title="$t('works.goAllIn.title')"
       :url="currentUrl"
     />
 
@@ -52,40 +52,90 @@ export default {
 .blog-post {
   max-width: 800px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
+  font-family: 'Times New Roman', serif;
+  line-height: 1.5;
+  color: #333;
+}
+
+@media (min-width: 768px) {
+  .blog-post {
+    padding: 2rem;
+  }
 }
 
 .blog-header {
-  margin-bottom: 2rem;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #ddd;
   padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .blog-header {
+    margin-bottom: 2rem;
+  }
 }
 
 .blog-title {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-  color: #1a1a1a;
+  font-size: 1.25rem;
+  font-weight: normal;
+  margin: 0 0 0.75rem 0;
+  color: #000;
+  text-align: center;
+  line-height: 1.3;
+}
+
+@media (min-width: 768px) {
+  .blog-title {
+    font-size: 1.5rem;
+    margin: 0 0 1rem 0;
+  }
 }
 
 .blog-meta {
   display: flex;
+  justify-content: center;
   gap: 1rem;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+@media (min-width: 768px) {
+  .blog-meta {
+    gap: 2rem;
+    font-size: 0.9rem;
+  }
 }
 
 .blog-content {
-  line-height: 1.8;
-  color: #333;
+  font-size: 0.875rem;
+}
+
+@media (min-width: 768px) {
+  .blog-content {
+    font-size: 0.95rem;
+  }
 }
 
 .blog-paragraph {
-  margin-bottom: 1.5rem;
-  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  text-align: justify;
 }
 
-.blog-paragraph:last-child {
-  margin-bottom: 0;
+@media (min-width: 768px) {
+  .blog-paragraph {
+    margin-bottom: 1.25rem;
+  }
+}
+
+.blog-paragraph:first-letter {
+  font-size: 1rem;
+  float: none;
+  margin-right: 0;
+  margin-top: 0;
+  line-height: inherit;
+  color: inherit;
 }
 </style>
