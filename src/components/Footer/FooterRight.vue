@@ -23,7 +23,7 @@ const isVolumeSettingsDisplayed = ref(false)
 const isLanguageSettingsDisplayed = ref(false)
 const musicModalRef = ref(null)
 const storedLocale = localStorage.getItem('currentLocale')
-const currentLocale = ref(storedLocale || locale.value)
+const currentLocale = ref(storedLocale || 'en')
 
 const enterFullScreen = () => {
   if (isFullScreen.value) {

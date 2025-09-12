@@ -90,7 +90,7 @@ const localeNames = {
 
 // Initialize currentLocale from localStorage if it exists, otherwise use the default locale
 const storedLocale = localStorage.getItem('currentLocale')
-const currentLocale = ref(storedLocale || locale.value)
+const currentLocale = ref(storedLocale || 'en')
 
 // Set the initial locale value
 locale.value = currentLocale.value
