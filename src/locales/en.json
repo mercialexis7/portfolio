@@ -8,6 +8,9 @@
     "icon": "Icon",
            "contextEighthParagraph": "the sacred act of creation isn't what you post: it's how you live. it's the frequency you hold while no one's watching. it's the honesty you carry into everything. it's the permission you give yourself to move at the rhythm of what's real.","back": "Back",
     "search": "Search",
+    "searchDocuments": "Search documents...",
+    "searchProjects": "Search projects...",
+    "noResults": "No results found",
     "files": "Files",
     "folder": "Folder",
     "next": "Next",
@@ -245,22 +248,26 @@
   },
   "works": {
     "theJokeIsGod": {
+      "title": "the joke is god - poetry collection",
       "contextFirstParagraph": "the joke is god is an experimental collection of poetry, satire, and sacred comedy — a passport stamped by the beloved herself. written in the voice of divine mischief, the book drifts between scripture and stand-up, meditation and absurd report, prayer and parody.",
       "contextSecondParagraph": "it is not \"literature\" in the usual sense; it's a cosmic prank disguised as one. think immigration forms rewritten by love, breaking news bulletins about eternity, meditation manuals that collapse into laughter.",
       "contextThirdParagraph": "issued to: any reader willing to laugh. valid ∞ across all realms.",
       "contextFourthParagraph": "side note: this book was written and published in a day (the beloved possessed me)."
     },
     "leaveTheDoorOpen": {
+      "title": "leave the door open - novel",
       "contextFirstParagraph": "leave the door open is a novel written in fragments and silences. eva drifts through the aftermath of loss; sol arrives without a plan, and stays without a reason. between them: a spare room, a second pot of tea, a presence that refuses to leave.",
       "contextSecondParagraph": "this isn't a story about fixing grief. it's about living beside it. it's about the stillness that grows when nothing needs to be solved, and the kind of love that lingers without asking for anything in return.",
       "contextThirdParagraph": "for readers drawn to quiet rooms, pauses between words, and the ache of memory, leave the door open is an invitation to sit, stay, and simply be.",
       "contextFourthParagraph": "side note: this book was written in the dublin airport, in six hours, between flights."
     },
     "flow": {
+      "title": "flow - poetry collection",
       "contextFirstParagraph": "flow is not a collection of poems so much as a current you step into. the book bends form, looping through tides, moons, and the quiet machinery of the universe. water rises, falls, returns. language dissolves and reforms. pages echo like waves against the shore—always the same, never the same.",
       "contextSecondParagraph": "it's not meant to be read once. it's meant to be lived through, like a cycle: inhale, exhale. ebb, surge. loss, return."
     },
     "research": {
+      "title": "research",
       "contextFirstParagraph": "the research that i'm exploring is how different frequencies — auditory, environmental, and interpersonal — affect nervous system regulation, perception, and embodiment.",
       "contextSecondParagraph": "traditional neuroscience focuses on stimulus-response. i'm focused on an expanded model of awareness, where subtle frequencies (theta, delta, infrasonic) create shifts not just in cognition, but in identity, memory, and connection.",
       "contextThirdParagraph": "through blending biometrics (HRV, EEG) with qualitative somatic feedback, i want to explore how states of deep coherence (induced by sound, stillness, and relational presence) alter what people remember, sense, and even attract.",
@@ -272,6 +279,7 @@
       "goalFourth": "reclaim sensitivity as intelligence — especially in feminine-bodied beings"
     },
     "sound": {
+      "title": "sound",
       "contextFirstParagraph": "i work with sound as a language the body already knows.",
       "contextSecondParagraph": "through piano, guitar, and intuitive composition, i explore how frequency and resonance affect the nervous system, memory, and subtle states of being.",
       "contextThirdParagraph": "my practice is rooted in the belief that sound isn't just heard — it's felt, remembered, and carried through the body like a wave.",
@@ -285,6 +293,7 @@
       "goalFourth": "collaborate with artists, healers, and scientists to deepen the impact of resonant sound in integrative spaces"
     },
     "threshold": {
+      "title": "threshold",
       "contextFirstParagraph": "threshold is my offering to the world.",
       "contextSecondParagraph": "born from my own search for a place to simply be, threshold is a living emotional habitat.",
       "contextThirdParagraph": "our world rewards overstimulation. i was praised while my nervous system unraveled. there was no space that asked me to breathe, no design that held me in presence.",
