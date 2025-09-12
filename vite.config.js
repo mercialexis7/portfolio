@@ -28,5 +28,27 @@ export default defineConfig({
   },
   build: {
     sourcemap: true,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          // Separate vendor chunks for better caching
+          vue: ['vue', 'vue-router', 'pinia'],
+          ui: ['@vueuse/head', 'vue-i18n', 'vue-matomo'],
+          utils: ['axios', 'date-fns', 'ical.js', '@emailjs/browser'],
+        },
+      },
+    },
+    // Enable compression
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+        drop_debugger: true,
+      },
+    },
+  },
+  // Enable gzip compression
+  server: {
+    compress: true,
   },
 })

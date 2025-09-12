@@ -268,4 +268,39 @@ const router = createRouter({
   ],
 })
 
+// Dynamic meta management
+router.beforeEach((to, from, next) => {
+  // Set document title
+  if (to.meta.title) {
+    document.title = to.meta.title
+  }
+
+  // Update meta tags dynamically
+  const updateMetaTags = () => {
+    // Remove existing meta tags
+    const existingMetaTags = document.querySelectorAll('meta[data-dynamic="true"]')
+    existingMetaTags.forEach(tag => tag.remove())
+
+    // Add new meta tags
+    if (to.meta.metaTags) {
+      to.meta.metaTags.forEach(tag => {
+        const metaTag = document.createElement('meta')
+        Object.keys(tag).forEach(key => {
+          if (key === 'rel' || key === 'href') {
+            metaTag.setAttribute(key, tag[key])
+          } else {
+            metaTag.setAttribute(key, tag[key])
+          }
+        })
+        metaTag.setAttribute('data-dynamic', 'true')
+        document.head.appendChild(metaTag)
+      })
+    }
+  }
+
+  // Use nextTick to ensure DOM is updated
+  next()
+  setTimeout(updateMetaTags, 0)
+})
+
 export default router

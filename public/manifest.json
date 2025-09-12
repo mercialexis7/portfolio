@@ -1,0 +1,65 @@
+{
+  "name": "Alexis Musaelyan - Creative Portfolio",
+  "short_name": "Alexis Portfolio",
+  "description": "Discover Alexis Musaelyan's creative field - a passionate creator exploring innovation across all mediums.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US",
+  "categories": ["portfolio", "creative", "art", "writing"],
+  "icons": [
+    {
+      "src": "/img/logo-portfolio-black.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/logo-portfolio-black.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Documents",
+      "short_name": "Docs",
+      "description": "Read creative writings and documents",
+      "url": "/documents",
+      "icons": [
+        {
+          "src": "/img/icons/windows-header-tools/documents-icon.webp",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Projects",
+      "short_name": "Projects",
+      "description": "Explore creative projects and works",
+      "url": "/projects",
+      "icons": [
+        {
+          "src": "/img/icons/windows-header-tools/my-projects-icon.webp",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "short_name": "Contact",
+      "description": "Get in touch",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/img/icons/windows-header-tools/contact-icon.webp",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
