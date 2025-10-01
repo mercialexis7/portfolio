@@ -13,6 +13,9 @@
 
 ### [https://alexismusaelyan.com](https://alexismusaelyan.com)
 
+## Credits
+Credits go to Paul Jaguin in the development of this website (www.pauljaguin.com).
+
 ## 👷 Disclaimers
 
 **This is an ongoing project and it is not done yet**.
