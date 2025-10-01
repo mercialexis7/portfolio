@@ -12,7 +12,7 @@
 ![portfolio](https://github.com/user-attachments/assets/77a7b9c0-6276-43b4-8792-a1f6e86306f0)
 
 ## Credits
-Credits go to Paul Jaguin in the development of this website (www.pauljaguin.com). Reference the LICENSE for additional information.
+Credits go to Paul Jaguin in the development of this website (www.pauljaguin.com + https://github.com/UnMugViolet/portfolio). Reference the LICENSE for additional information.
 
 ## 👷 Disclaimers
 
