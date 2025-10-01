@@ -11,8 +11,6 @@
 
 ![portfolio](https://github.com/user-attachments/assets/77a7b9c0-6276-43b4-8792-a1f6e86306f0)
 
-### [https://alexismusaelyan.com](https://alexismusaelyan.com)
-
 ## Credits
 Credits go to Paul Jaguin in the development of this website (www.pauljaguin.com).
 
